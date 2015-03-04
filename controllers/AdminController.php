@@ -50,17 +50,21 @@ class AdminController extends Controller
 
     public function actionIndex()
     {
-        if(true){
-            $this->redirect('admin/login');
+        if(false){
+            $this->redirect('login');
         }
         return $this->render('//site/admin/index');
+    }
+
+    public function actionDashboard(){
+        return $this->render('//site/admin/dashboard');
     }
 
     public function actionLogin()
     {
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
+            $this->redirect('dashboard');
         } else {
             return $this->render('//site/admin/login', [
                 'model' => $model,
