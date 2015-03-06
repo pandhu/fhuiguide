@@ -9,3 +9,4 @@ class BerandaController extends Controller
 		$this->render('beranda');
 	}
 }
+
