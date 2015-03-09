@@ -50,6 +50,32 @@ class AdminController extends Controller{
 		$this -> render('/admin/artikel_list', array('models' => $models, 'pages' => $pages, ));
 	}
 
+	public function actionPosts(){
+		/*gunakan layout store*/
+		$this -> layout = 'main';
+		/*order by id desc*/
+		$criteria = new CDbCriteria( array('order' => 'id DESC', ));
+		/*count data product*/
+		$count = Peminatan::model() -> count($criteria);
+		/*panggil class paging*/
+		$pages = new CPagination($count);
+		/*elements per page*/
+		$pages -> pageSize = 8;
+		/*terapkan limit page*/
+		$pages -> applyLimit($criteria);
+
+		/*select data product
+		 *cache(1000) digunakan untuk men cache data,
+		 * 1000 = 10menit*/
+		$models = Peminatan::model() -> findAll();
+
+		/*render ke file index yang ada di views/product
+		 *dengan membawa data pada $models dan
+		 *data pada $pages
+		 **/
+		$this -> render('/admin/peminatan_list', array('models' => $models, 'pages' => $pages, ));
+	}
+
 	public function actionEditPost($id){
 		$models = Artikel::model()->findByPk($id);
 		$kategori = KategoriArtikel::model()->findAll();
@@ -101,6 +127,31 @@ class AdminController extends Controller{
 		$artikel->konten = $_POST['konten'];
 		$artikel->save(false);
 		$this->redirect('posts/');
+	}
+
+	public function actionEditPeminatan($id){
+		$models = Peminatan::model()->findByPk($id);
+		$this -> render('/admin/artikel_edit', array('models' => $models, 'id'=>$id, 'url'=>$url ));
+	}
+
+	public function actionSaveEditPeminatan($id){
+		$peminatan = Peminatan::model()->findByPk($id);
+		$peminatan->attributes = $_POST['Peminatan'];
+		$peminatan->update();
+		$this->redirect('../editpeminatan/'.$id);
+	}
+
+	public function actionAddPeminatan(){
+		$models = Peminatan::model();	
+		$this -> render('/admin/peminatan_add', array('models' => $models,));
+	}
+
+	public function actionSavePeminatan(){
+
+		$peminatan = new Peminatan();
+		$peminatan->attributes = $_POST['Peminatan'];
+		$peminatan->save(false);
+		$this->redirect('peminatan/');
 	}
 }
 ?>
