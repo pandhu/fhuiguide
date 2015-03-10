@@ -7333,3 +7333,25 @@ Stack trace:
 REQUEST_URI=/fhuiguide/admin/savepost
 in /opt/lampp/htdocs/fhuiguide/protected/controllers/AdminController.php (96)
 in /opt/lampp/htdocs/fhuiguide/index.php (13)
+2015/03/10 04:08:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dashboard".' in /opt/lampp/htdocs/fhuiguide/yy/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CController.php(270): CController->missingAction('dashboard')
+#1 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CWebApplication.php(282): CController->run('dashboard')
+#2 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dashboard')
+#3 /opt/lampp/htdocs/fhuiguide/yy/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/fhuiguide/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fhuiguide/index.php/admin/dashboard
+HTTP_REFERER=http://localhost/fhuiguide/admin
+---
+2015/03/10 04:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dashboard".' in /opt/lampp/htdocs/fhuiguide/yy/framework/web/CController.php:483
+Stack trace:
+#0 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CController.php(270): CController->missingAction('dashboard')
+#1 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CWebApplication.php(282): CController->run('dashboard')
+#2 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/dashboard')
+#3 /opt/lampp/htdocs/fhuiguide/yy/framework/base/CApplication.php(184): CWebApplication->processRequest()
+#4 /opt/lampp/htdocs/fhuiguide/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fhuiguide/index.php/admin/dashboard
+HTTP_REFERER=http://localhost/fhuiguide/admin
+---

@@ -1,3 +1,4 @@
+<h1>Peminatan</h1>
 <?php
 	foreach ($models as $data):
 		echo $data->nama;

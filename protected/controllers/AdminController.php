@@ -50,7 +50,7 @@ class AdminController extends Controller{
 		$this -> render('/admin/artikel_list', array('models' => $models, 'pages' => $pages, ));
 	}
 
-	public function actionPosts(){
+	public function actionPeminatan(){
 		/*gunakan layout store*/
 		$this -> layout = 'main';
 		/*order by id desc*/
