@@ -13,6 +13,8 @@
 	<![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/asset/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/asset/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -54,6 +56,7 @@
 	</div><!-- footer -->
 
 </div><!-- page -->
-
+<script src="<?php echo Yii::app()->baseUrl?>/asset/js/jquery-1.11.2.min.js"></script>
+<script src="<?php echo Yii::app()->baseUrl?>/asset/js/bootstrap.min.js"></script>
 </body>
 </html>
