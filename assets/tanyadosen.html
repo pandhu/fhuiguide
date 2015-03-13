@@ -18,7 +18,7 @@
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <!--    <script src="js/ie-emulation-modes-warning.js"></script>-->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -44,7 +44,19 @@
           <ul class="nav navbar-nav">
             <li><a href="home.html">Home</a></li>
             <li><a href="rancangankuliah.html">Rancangan Kuliah</a></li>
-            <li><a href="bahankuliah.html">Bahan Kuliah</a></li>
+            <!-- <li><a href="bahankuliah.html">Bahan Kuliah</a></li> -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bahan Kuliah <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
             <li><a href="banksoal.html">Bank Soal</a></li>
             <li><a href="pkmguide.html">PKM Guide</a></li>
             <li class="active"><a href="tanyadosen.html">Tanya Dosen</a></li>
@@ -110,8 +122,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <!-- <script src="js/ie10-viewport-bug-workaround.js"></script>-->
   </body>
 </html>
