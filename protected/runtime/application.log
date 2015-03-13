@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2015/03/06 22:55:26 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "login".' in /opt/lampp/htdocs/fhuiguide/yy/framework/web/CController.php:878
 Stack trace:
 #0 /opt/lampp/htdocs/fhuiguide/yy/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
@@ -7333,3 +7334,20 @@ Stack trace:
 REQUEST_URI=/fhuiguide/admin/savepost
 in /opt/lampp/htdocs/fhuiguide/protected/controllers/AdminController.php (96)
 in /opt/lampp/htdocs/fhuiguide/index.php (13)
+=======
+2015/03/06 22:48:55 [error] [exception.CException] exception 'CException' with message 'BerandaController cannot find the requested view "beranda".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('beranda', NULL, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BerandaController.php(9): CController->render('beranda')
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BerandaController->actionIndex()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('beranda/')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=beranda/
+---
+>>>>>>> a1dbf8ccf6ff929129d2b454074ab1f6e5d8a631
