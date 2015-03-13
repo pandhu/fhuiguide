@@ -2,6 +2,10 @@
 class AdminController extends Controller{
 	public $layout = 'main';
 
+	public function actionDashboard(){
+		$this->render('/admin/dashboard');
+	}
+
 	public function actionIndex(){
 		$model = new AdminLoginForm;
 		if (isset($_POST['ajax']) && $_POST['ajax'] === 'login-form'){
@@ -12,7 +16,7 @@ class AdminController extends Controller{
 			$model->attributes = $_POST['AdminLoginForm'];
 		var_dump($_POST['AdminLoginForm']);
 		echo '<br>';
-		var_dump($model->attributes);
+		var_dump($model);
 			if ($model->validate() && $model->login()){
 				$this->redirect(array('admin/dashboard'));
 			}
@@ -153,5 +157,26 @@ class AdminController extends Controller{
 		$peminatan->save(false);
 		$this->redirect('peminatan/');
 	}
+
+	public function actionTanyaList(){
+		$pertanyaan = Pertanyaan::model()->waktuTanya()->findAll('status = 0');
+		$this->render('/admin/tanya_list', array('pertanyaan'=>$pertanyaan));
+	}
+
+	public function actionJawab($id){
+		$models = Pertanyaan::model();
+		$pertanyaan = Pertanyaan::model()->waktuTanya()->findAll('id = '. $id);
+		$this->render('/admin/jawab', array('pertanyaan'=>$pertanyaan, 'models'=>$models, 'id' => $id));
+	}
+
+	public function actionSubmitjawaban($id){
+		$pertanyaan = Pertanyaan::model()->findByPk($id);
+		$pertanyaan->jawaban = $_POST['Pertanyaan']['jawaban'];
+		$pertanyaan->waktu_jawab = new CDbExpression('NOW()');
+		$pertanyaan->status = 1;
+		$pertanyaan->update();
+		$this->redirect('../tanyalist');
+	}
+
 }
 ?>
