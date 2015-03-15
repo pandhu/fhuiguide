@@ -17,7 +17,7 @@ class TanyadosenController extends Controller{
 		/*terapkan limit page*/
 		$pages -> applyLimit($criteria);
 
-		$pertanyaan = Pertanyaan::model()->waktuTanya()->findAll('status = 1');
+		$pertanyaan = Pertanyaan::model()->waktuJawab()->findAll('status = 1');
 		$this -> render('/site/pages/tanya_dosen', array('models'=>$models, 'pertanyaan' => $pertanyaan, 'pages' => $pages, ));
 	}
 
@@ -27,6 +27,7 @@ class TanyadosenController extends Controller{
 		$pertanyaan->attributes = $_POST['Pertanyaan'];
 		$pertanyaan->waktu_tanya = new CDbExpression('NOW()');
 		$pertanyaan->save(false);
+		Yii::app()->session['success'] = "Pertanyaan Berhasil Dikirim";
 		$this->redirect('../tanyadosen');
 	}
 }

@@ -1,6 +1,6 @@
 <?php 
 class AdminController extends Controller{
-	public $layout = 'main';
+	public $layout = 'admin';
 
 	public function actionDashboard(){
 		$this->render('/admin/dashboard');
@@ -29,29 +29,26 @@ class AdminController extends Controller{
 	}
 
 	public function actionPosts(){
+
 		/*gunakan layout store*/
-		$this -> layout = 'main';
+		$this -> layout = 'admin';
 		/*order by id desc*/
 		$criteria = new CDbCriteria( array('order' => 'id DESC', ));
-		/*count data product*/
+		
 		$count = Artikel::model() -> count($criteria);
-		/*panggil class paging*/
 		$pages = new CPagination($count);
-		/*elements per page*/
 		$pages -> pageSize = 8;
-		/*terapkan limit page*/
 		$pages -> applyLimit($criteria);
-
-		/*select data product
-		 *cache(1000) digunakan untuk men cache data,
-		 * 1000 = 10menit*/
-		$models = Artikel::model() -> with('kategori') -> findAll();
-
+		
+		if (isset($_GET['cat_id']))
+			$artikel = Artikel::model() -> with('kategori') -> findAll('kategori_id = :cat_id', array(':cat_id'=>$_GET['cat_id']));
+		else 
+			$artikel = Artikel::model() -> with('kategori') -> findAll();
 		/*render ke file index yang ada di views/product
 		 *dengan membawa data pada $models dan
 		 *data pada $pages
 		 **/
-		$this -> render('/admin/artikel_list', array('models' => $models, 'pages' => $pages, ));
+		$this -> render('/admin/artikel_list', array('models' => $artikel, 'pages' => $pages, ));
 	}
 
 	public function actionPeminatan(){
@@ -87,19 +84,28 @@ class AdminController extends Controller{
 		foreach ($kategori as $data) {
 			$kategoris[$data->id] = $data->nama;
 		}
+
 		$this -> render('/admin/artikel_edit', array('models' => $models, 'id'=>$id, 'kategoris'=>$kategoris ));
 	}
 
+	public function actionDeletePost($id){
+		Artikel::model()->deleteAll("id = ".$id);
+		Yii::app()->session['success'] = "Artikel Berhasil Dihapus";
+		$this -> redirect('../posts');
+	}
+	
 	public function actionSaveEditPost($id){
 		$artikel = Artikel::model()->findByPk($id);
 		$artikel->attributes = $_POST['Artikel'];
 		$artikel->konten = $_POST['konten'];
 		$artikel->update();
+		Yii::app()->session['success'] = "Artikel Berhasil Diubah";
 		$this->redirect('../editpost/'.$id);
 	}
 
 	public function actionAddPost(){
 		$models = Artikel::model();	
+
 		$kategori = KategoriArtikel::model()->findAll();
 		$kategoris = array();
 		foreach ($kategori as $data) {
@@ -130,6 +136,7 @@ class AdminController extends Controller{
 		$artikel->url = $url;
 		$artikel->konten = $_POST['konten'];
 		$artikel->save(false);
+		Yii::app()->session['success'] = "Artikel Berhasil Dibuat";
 		$this->redirect('posts/');
 	}
 
@@ -175,6 +182,7 @@ class AdminController extends Controller{
 		$pertanyaan->waktu_jawab = new CDbExpression('NOW()');
 		$pertanyaan->status = 1;
 		$pertanyaan->update();
+		Yii::app()->session['success'] = "Pertanyaan Dijawab";
 		$this->redirect('../tanyalist');
 	}
 

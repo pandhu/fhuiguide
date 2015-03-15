@@ -41,6 +41,7 @@ class Pertanyaan extends CActiveRecord{
 	public function scopes() {
 	    return array(
 	        'waktuTanya' => array('order' => 'waktu_tanya DESC'),
+	        'waktuJawab' => array('order' => 'waktu_jawab ASC'),
 	    );
 	}
 }

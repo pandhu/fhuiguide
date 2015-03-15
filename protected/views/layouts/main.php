@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-    <link href="jumbotron.css" rel="stylesheet">
-    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
-	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/asset/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/asset/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
-
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
+	
+	<script src="<?php echo Yii::app()->baseUrl?>/asset/js/jquery-1.11.2.min.js"></script>
+	<script src="<?php echo Yii::app()->baseUrl?>/asset/js/bootstrap.min.js"></script>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
@@ -34,26 +33,21 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="home.html">Home</a></li>
+            <li class="active"><a href="">Home</a></li>
             <li><a href="#">Rancangan Kuliah</a></li>
             <li><a href="#">Bahan Kuliah</a></li>
             <li><a href="#">Bank Soal</a></li>
             <li><a href="<?php echo Yii::app()->baseUrl?>/tanyadosen">Tanya Dosen</a></li>
-            <?php
-			foreach ([("PKMGuide"),("beasiswa")] as $key) {
-			?>
-			<li><a href="#"><?php echo $key;?></a></li>
-			<?php
-		}
-			?>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/artikel?cat_id=2">PKM Guide</a></li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/artikel?cat_id=3">Beasiswa</a></li>
           </ul>
         </div>
       </div>
     </nav><!-- mainmenu -->
-
+    <div id="content" class="col-md-12">
 	<?php echo $content; ?>
-
-	<div class="clear"></div>
+	</div>
+	<div class="clearfix"></div>
 
 	<div id="footer">
 		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
@@ -62,7 +56,6 @@
 	</div><!-- footer -->
 
 </div><!-- page -->
-<script src="<?php echo Yii::app()->baseUrl?>/asset/js/jquery-1.11.2.min.js"></script>
-<script src="<?php echo Yii::app()->baseUrl?>/asset/js/bootstrap.min.js"></script>
+
 </body>
 </html>
