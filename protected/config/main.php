@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'My Web Application',
+	'defaultController' => 'beranda',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -39,7 +40,7 @@ return array(
 		),
 
 		// uncomment the following to enable URLs in path-format
-		/*
+	
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -48,7 +49,6 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
 
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
