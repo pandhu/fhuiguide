@@ -2,30 +2,16 @@
 class AdminController extends Controller{
 	public $layout = 'admin';
 
-	public function actionDashboard(){
-		$this->render('/admin/dashboard');
+
+	public function init(){
+		if(Yii::app()->user->id==null){
+			$this->redirect(array('/login'));	
+		}
 	}
 
 	public function actionIndex(){
-		$model = new AdminLoginForm;
-		if (isset($_POST['ajax']) && $_POST['ajax'] === 'login-form'){
-		echo CActiveForm::validate($model);
-		Yii::app()->end();
-		}
-		if(isset($_POST['AdminLoginForm'])){
-			$model->attributes = $_POST['AdminLoginForm'];
-		var_dump($_POST['AdminLoginForm']);
-		echo '<br>';
-		var_dump($model);
-			if ($model->validate() && $model->login()){
-				$this->redirect(array('admin/dashboard'));
-			}
-		}
-		$this->render('login', array('model'=> $model));
-	}
-	public function actionLogout(){
-		Yii::app()->user->logout();
-		$this->redirect(array('/admin'));	
+		$this->render('/admin/dashboard');
+
 	}
 
 	public function actionPosts(){
@@ -41,9 +27,9 @@ class AdminController extends Controller{
 		$pages -> applyLimit($criteria);
 		
 		if (isset($_GET['cat_id']))
-			$artikel = Artikel::model() -> with('kategori') -> findAll('kategori_id = :cat_id', array(':cat_id'=>$_GET['cat_id']));
+			$artikel = Artikel::model() -> with('kategori') ->bydate()-> findAll('kategori_id = :cat_id', array(':cat_id'=>$_GET['cat_id']));
 		else 
-			$artikel = Artikel::model() -> with('kategori') -> findAll();
+			$artikel = Artikel::model() -> with('kategori') ->bydate()-> findAll();
 		/*render ke file index yang ada di views/product
 		 *dengan membawa data pada $models dan
 		 *data pada $pages
@@ -89,9 +75,11 @@ class AdminController extends Controller{
 	}
 
 	public function actionDeletePost($id){
+		$artikel = Artikel::model()->findByPk($id);
+		$cat_id = $artikel->kategori_id;
 		Artikel::model()->deleteAll("id = ".$id);
 		Yii::app()->session['success'] = "Artikel Berhasil Dihapus";
-		$this -> redirect('../posts');
+		$this -> redirect('../posts?cat_id='.$cat_id);
 	}
 	
 	public function actionSaveEditPost($id){
@@ -111,7 +99,6 @@ class AdminController extends Controller{
 		foreach ($kategori as $data) {
 			$kategoris[$data->id] = $data->nama;
 		}
-		var_dump($kategoris);
 		$this -> render('/admin/artikel_add', array('models' => $models, 'kategoris' => $kategoris));
 	}
 
@@ -119,6 +106,7 @@ class AdminController extends Controller{
 
 		$artikel = new Artikel();
 		$artikel->attributes = $_POST['Artikel'];
+		$cat_id = $artikel->kategori_id;
 		$url = str_replace(' ','-', strtolower($artikel->judul));
 		while($tmp = Artikel::model()->find("url='{$url}'")){
 			$url_old = explode("-", $tmp->url);
@@ -137,7 +125,7 @@ class AdminController extends Controller{
 		$artikel->konten = $_POST['konten'];
 		$artikel->save(false);
 		Yii::app()->session['success'] = "Artikel Berhasil Dibuat";
-		$this->redirect('posts/');
+		$this->redirect('posts?cat_id='.$cat_i);
 	}
 
 	public function actionEditPeminatan($id){

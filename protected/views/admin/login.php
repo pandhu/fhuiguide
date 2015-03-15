@@ -9,7 +9,7 @@
 	                <?php echo $form->textField($model, 'username', array('class'=>'form-control', 'placeholder'=>'Username'));?>
 	           		<?php echo $form->error($model, 'username');?>		
 		
-	           		<?php echo $form->textField($model, 'password', array('class'=>'form-control', 'placeholder'=>'Password'));?>
+	           		<?php echo $form->passwordField($model, 'password', array('class'=>'form-control', 'placeholder'=>'Password'));?>
 	           		<?php echo $form->error($model, 'password');?>
 	           		<?php echo CHtml::submitButton('Login', array('class'=>'btn btn-lg btn-primary btn-block', 'style'=>'margin-top:10px;'));?>
            		<?php $this->endWidget();?>

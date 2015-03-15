@@ -22,7 +22,6 @@ class AdminLoginForm extends CFormModel{
 
 
 	public function login(){
-		var_dump($this->_identity);
 		if($this->_identity === null){
 			$this->_identity = new AdminLogin($this->username, $this->password);
 			$this->_identity->authenticate();

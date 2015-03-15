@@ -67,7 +67,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="<?php echo Yii::app()->baseUrl?>/login/logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -91,7 +91,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="<?php echo Yii::app()->baseUrl?>/admin/dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="<?php echo Yii::app()->baseUrl?>/admin"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> PKM Guide<span class="fa arrow"></span></a>
@@ -118,14 +118,14 @@
                             <!-- /.nav-second-level -->
                         </li>
 
-                        <li><a href="<?php echo Yii::app()->baseUrl?>/admin/tanyalist"><i class="fa fa-wrench fa-fw"></i> Tanya Dosen<span class="fa arrow"></span></a>
+                        <li><a href="<?php echo Yii::app()->baseUrl?>/admin/tanyalist"><i class="fa fa-wrench fa-fw"></i> Tanya Dosen</a>
                         </li>
 
-                        <li><a href="#"><i class="fa fa-wrench fa-fw"></i> Rancangan Kuliah<span class="fa arrow"></span></a>
+                        <li><a href="#"><i class="fa fa-wrench fa-fw"></i> Rancangan Kuliah</a>
                         </li>
-                        <li><a href="#"><i class="fa fa-wrench fa-fw"></i> Bahan Kuliah<span class="fa arrow"></span></a>
+                        <li><a href="#"><i class="fa fa-wrench fa-fw"></i> Bahan Kuliah</a>
                         </li>
-                        <li><a href=""><i class="fa fa-wrench fa-fw"></i> Bank Soal<span class="fa arrow"></span></a>
+                        <li><a href=""><i class="fa fa-wrench fa-fw"></i> Bank Soal</a>
                         </li>
                     </ul>
                 </div>

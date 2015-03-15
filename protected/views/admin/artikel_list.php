@@ -12,6 +12,8 @@
 		<td>Kategori</td>
 		<td>Tanggal</td>
 		<td></td>
+		<td></td>
+		<td></td>
 	</thead>
 <?php
 	foreach ($models as $data): ?>
@@ -23,8 +25,11 @@
 			<a class="btn btn-default" href="<?php echo Yii::app()->baseUrl;?>/admin/editpost/<?php echo $data->id?>">Edit</a>
 		</td>
 		<td>
-			<a class="btn btn-default btn-delete" data-title="<?php echo $data->judul?>" data-link="<?php echo Yii::app()->baseUrl;?>/admin/deletepost/<?php echo $data->id?>">Delete</a>
+			<a class="btn btn-default btn-delete" data-title="<?php echo $data->judul?>" data-link="<?php echo Yii::app()->baseUrl;?>/post<?php echo $data->id?>">View</a>
 		</td> 	
+		<td>
+			<a class="btn btn-default btn-delete" data-title="<?php echo $data->judul?>" data-link="<?php echo Yii::app()->baseUrl;?>/admin/deletepost/<?php echo $data->id?>">Delete</a>
+		</td> 
 		</div>
 	</tr>
 <?php
