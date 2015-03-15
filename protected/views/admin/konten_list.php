@@ -6,11 +6,13 @@
 		$matkul_list = $data->matkul;
 		if($matkul_list):
 			foreach ($matkul_list as $matkul) {
-				echo "<b> - ".$matkul->nama."</b>";
+				if($matkul->kategori == $kategori) {
+					echo "<b> - ".$matkul->nama."</b>";
 ?>
-				<a href="<?php echo Yii::app()->baseUrl;?>/admin/editmatkul/<?php echo $matkul->id?>">edit matkul</a>
-				</br>
+					<a href="<?php echo Yii::app()->baseUrl;?>/admin/editmatkul/<?php echo $matkul->id?>">edit matkul</a>
+					</br>
 <?php
+				}
 			}
 		else:
 			echo "<i>belum ada pilhan mata kuliah</i>";
@@ -30,11 +32,13 @@
 		$matkul_list = $data->matkul;
 		if($matkul_list):
 			foreach ($matkul_list as $matkul) {
-				echo "<b> - ".$matkul->nama."</b>";
+				if($matkul->kategori == $kategori) {
+					echo "<b> - ".$matkul->nama."</b>";
 ?>
-				<a href="<?php echo Yii::app()->baseUrl;?>/admin/editmatkul/<?php echo $matkul->id?>">edit matkul</a>
-				</br>
+					<a href="<?php echo Yii::app()->baseUrl;?>/admin/editmatkul/<?php echo $matkul->id?>">edit matkul</a>
+					</br>
 <?php
+				}
 			}
 		else:
 			echo "<i>belum ada pilhan mata kuliah</i>";

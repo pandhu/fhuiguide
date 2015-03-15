@@ -102,7 +102,6 @@ class AdminController extends Controller{
 		$artikel->save(false);
 		$this->redirect('posts/');
 	}
-}
 /**------------RANCANGAN KULIAH---------------**/
 	public function actionRancanganKuliah(){
 		$this -> layout = 'main';
@@ -136,7 +135,8 @@ class AdminController extends Controller{
 		$peminatan->nama = $_POST['Peminatan']['nama'];
 		$peminatan->rancangan_kuliah = $_POST['Peminatan']['rancangan_kuliah'];
 		$peminatan->save(false);
-		$this->redirect('/admin/rancangankuliah/');
+		var_dump($peminatan);
+		//$this->redirect('/admin/rancangankuliah/');
 	}
 
 	/**--------MATKUL WAJIB----------*/
@@ -201,13 +201,51 @@ class AdminController extends Controller{
 		$this->redirect('/admin/Matkul/');
 	}
 
+/**------------KONTEN-------------------*/
+	public function actionEditKonten($id, $kategori){
+		$models = Konten::model()->findByPk($id);
+		$this -> render('/admin/konten_edit', array('models' => $models, 'id' => $id, 'kategori'=>$kategori));
+	}
+
+	public function actionSaveEditKonten($id, $kategori){
+		$matkul = Konten::model()->findByPk($id);
+		$matkul->nama = $_POST['konten']['judul']['url'];
+		$matkul->kategori = $kategori;
+		$matkul->update();
+		$this->redirect('../editkonten/'.$id);
+	}
+
+	public function actionAddKonten($id, $kategori){
+		$models = Konten::model();
+		$this -> render('/admin/konten_add',
+			array('models' => $models, 'peminatan_id' => $id, 'kategori'=>$kategori));
+	}
+
+	public function actionSaveKonten($id, $kategori){
+		$matkul = new Konten();
+		$matkul->nama = $_POST['konten']['judul']['url'];
+		$matkul->peminatan_id = $id;
+		$matkul->kategori = $kategori;
+		$matkul->save(false);
+		$this->redirect('/admin/konten/');
+	}
+
 	/**-------BAHAN KULIAH--------*/
 	public function actionBahanKuliah(){
 		$this -> layout = 'main';
 		$peminatan = Peminatan::model() -> findAll();
 		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/admin/bahan_kuliah_list',
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
+		$this -> render('/admin/konten_list/',
+			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>0));
+	}
+
+	/**-------BANK SOAL--------*/
+	public function actionBankSoal(){
+		$this -> layout = 'main';
+		$peminatan = Peminatan::model() -> findAll();
+		$matkul_wajib = MataKuliahWajib::model() -> findAll();
+		$this -> render('/admin/konten_list/',
+			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>1));
 	}
 
 	/**-------DIKTAT--------*/
@@ -215,17 +253,8 @@ class AdminController extends Controller{
 		$this -> layout = 'main';
 		$peminatan = Peminatan::model() -> findAll();
 		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/admin/bahan_kuliah_list',
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
-	}
-	
-	/**-------BANK SOAL--------*/
-	public function actionBankSoal(){
-		$this -> layout = 'main';
-		$peminatan = Peminatan::model() -> findAll();
-		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/admin/soal_list',
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
+		$this -> render('/admin/konten_list/',
+			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>2));
 	}
 }
 ?>
