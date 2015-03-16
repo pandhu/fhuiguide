@@ -13,7 +13,6 @@ class AdminController extends Controller{
 
 	public function actionIndex(){
 		$this->render('/admin/dashboard');
-
 	}
 
 	public function actionPosts(){
@@ -122,7 +121,7 @@ class AdminController extends Controller{
 		$artikel->konten = $_POST['konten'];
 		$artikel->save(false);
 		Yii::app()->session['success'] = "Artikel Berhasil Dibuat";
-		$this->redirect('posts?cat_id='.$cat_i);
+		$this->redirect('posts?cat_id='.$cat_id);
 	}
 
 	public function actionTanyaList(){
@@ -305,60 +304,45 @@ class AdminController extends Controller{
 		$konten = Konten::model() ->with('matkul')->findAll("kategori = 'bahan_kuliah'");
 		$this -> render('/admin/bank_soal', array('konten' => $konten));
 	}
-/**------------RANCANGAN KULIAH---------------**/
-	public function actionRancanganKuliah(){
-		$this -> layout = 'main';
-		$peminatan = Peminatan::model() -> findAll();
-		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/admin/rancangan_kuliah_list',
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
+
+	/**--------JenisMatkul----------**/
+	public function actionJenisMatkul(){
+		$wajib = JenisMatkul::model()->findAll("kategori = 0");
+		$peminatan = JenisMatkul::model()->findAll("kategori = 1");
+		$this -> render('admin/jenis_matkul_list', array('wajib' => $wajib, 'peminatan' => $peminatan));
 	}
 
-	/**--------PEMINATAN----------**/
-	public function actionEditPeminatan($id){
-		$models = Peminatan::model()->findByPk($id);
-		$this -> render('/admin/peminatan_edit', array('models' => $models, 'id'=>$id));
+	public function actionEditJenisMatkul($id){
+		$models = JenisMatkul::model()->findByPk($id);
+		$this -> render('/admin/jenis_matkul_edit', array('models' => $models, 'id'=>$id));
 	}
 
-	public function actionSaveEditPeminatan($id){
-		$peminatan = Peminatan::model()->findByPk($id);
-		$peminatan->nama = $_POST['Peminatan']['nama'];
-		$peminatan->rancangan_kuliah = $_POST['Peminatan']['rancangan_kuliah'];
+	public function actionSaveEditJenisMatkul($id){
+		$peminatan = JenisMatkul::model()->findByPk($id);
+		var_dump($_POST);
+/*		$peminatan->nama = $_POST['JenisMatkul']['nama'];
+		$peminatan->rancangan_kuliah = $_POST['JenisMatkul']['rancangan_kuliah'];
 		$peminatan->update();
-		$this->redirect('../editpeminatan/'.$id);
+		$this->redirect('../editjenis_matkul/'.$id);
+*/	}
+
+	public function actionAddJenisMatkul(){
+		$models = JenisMatkul::model();	
+		$this -> render('/admin/jenis_matkul_add', array('models' => $models,));
 	}
 
-	public function actionAddPeminatan(){
-		$models = Peminatan::model();	
-		$this -> render('/admin/peminatan_add', array('models' => $models,));
-	}
-
-	public function actionSavePeminatan(){
-		$peminatan = new Peminatan();
-		$peminatan->nama = $_POST['Peminatan']['nama'];
-		$peminatan->rancangan_kuliah = $_POST['Peminatan']['rancangan_kuliah'];
+	public function actionSaveJenisMatkul(){
+		$peminatan = new JenisMatkul();
+		$peminatan->nama = $_POST['JenisMatkul']['nama'];
+		$peminatan->rancangan_kuliah = $_POST['JenisMatkul']['rancangan_kuliah'];
+		$peminatan->kategori = $_POST['JenisMatkul']['kategori'];
 		$peminatan->save(false);
-		var_dump($peminatan);
-		//$this->redirect('/admin/rancangankuliah/');
-	}
-
-	/**--------MATKUL WAJIB----------*/
-	public function actionEditMatkulWajib($id){
-		$models = MataKuliahWajib::model()->findByPk($id);
-		$this -> render('/admin/matkul_wajib_edit', array('models' => $models, 'semester'=>$id));
-	}
-	
-	public function actionSaveEditMatkulWajib($id){
-		$matkul_wajib = MataKuliahWajib::model()->findByPk($id);
-		$matkul_wajib->rancangan_kuliah = $_POST['MataKuliahWajib']['rancangan_kuliah'];
-		$matkul_wajib->update();
-		$this->redirect('/admin/rancangankuliah/');
 	}
 
 /**-------------------------------MATKUL----------------------------------**/	
 	public function actionMatkul(){
-		$peminatan = Peminatan::model() -> findAll();
-		$matkul_wajib = MataKuliahWajib::model() -> findAll();
+		$peminatan = JenisMatkul::model() -> findAll('kategori = 1');
+		$matkul_wajib = JenisMatkul::model() -> findAll('kategori = 0');
 		$this -> render('/admin/matkul_list',
 			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
 	}
@@ -375,30 +359,16 @@ class AdminController extends Controller{
 		$this->redirect('../editMatkul/'.$id);
 	}
 
-	public function actionAddMatkulPeminatan($id){
+	public function actionAddMatkul(){
 		$models = MataKuliah::model();
 		$this -> render('/admin/matkul_add',
-			array('models' => $models, 'peminatan_id' => $id));
+			array('models' => $models));
 	}
 
-	public function actionSaveMatkulPeminatan($id){
+	public function actionSaveMatkul(){
 		$matkul = new MataKuliah();
 		$matkul->nama = $_POST['MataKuliah']['nama'];
-		$matkul->peminatan_id = $id;
-		$matkul->save(false);
-		$this->redirect('../matkul/');
-	}
-	
-	public function actionAddMatkul($id){
-		$models = MataKuliah::model();
-		$this -> render('/admin/matkul_add',
-			array('models' => $models, 'matkul_wajib_id' => $id ));
-	}
-
-	public function actionSaveMatkul($id){
-		$matkul = new MataKuliah();
-		$matkul->nama = $_POST['MataKuliah']['nama'];
-		$matkul->matkul_wajib_id = $id;
+		$matkul->jenis = $_POST['JenisMatkul']['id'];
 		$matkul->save(false);
 		$this->redirect('../matkul/');
 	}

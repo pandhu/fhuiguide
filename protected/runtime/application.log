@@ -9782,3 +9782,1286 @@ Stack trace:
 REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
 HTTP_REFERER=http://localhost/fhuiguide/bahankuliah
 ---
+2015/03/16 11:15:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/16 11:15:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\proyek\fhuiguide\yy\framework\db\CDbConnection.php:399
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\CDbConnection.php(347): CDbConnection->open()
+#1 D:\proyek\fhuiguide\yy\framework\db\CDbConnection.php(325): CDbConnection->setActive(true)
+#2 D:\proyek\fhuiguide\yy\framework\base\CModule.php(394): CDbConnection->init()
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(458): CModule->getComponent('db')
+#4 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(637): CApplication->getDb()
+#5 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(1433): CActiveRecord->getDbConnection()
+#6 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(1522): CActiveRecord->getTableAlias(true)
+#7 D:\proyek\fhuiguide\protected\components\AdminLogin.php(5): CActiveRecord->findByAttributes(Array)
+#8 D:\proyek\fhuiguide\protected\models\AdminLoginForm.php(10): AdminLogin->authenticate()
+#9 D:\proyek\fhuiguide\yy\framework\validators\CInlineValidator.php(42): AdminLoginForm->authenticate('password', Array)
+#10 D:\proyek\fhuiguide\yy\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(AdminLoginForm), 'password')
+#11 D:\proyek\fhuiguide\yy\framework\base\CModel.php(159): CValidator->validate(Object(AdminLoginForm), NULL)
+#12 D:\proyek\fhuiguide\protected\controllers\LoginController.php(18): CModel->validate()
+#13 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): LoginController->actionIndex()
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('')
+#18 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('login')
+#19 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#20 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/login
+HTTP_REFERER=http://localhost/index.php/login
+---
+2015/03/16 11:44:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addmatkul')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addmatkul')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin/addmatkul
+HTTP_REFERER=http://localhost/admin/addbahankuliah
+---
+2015/03/16 11:44:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addmatkul')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addmatkul')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin/addmatkul
+HTTP_REFERER=http://localhost/admin/addbahankuliah
+---
+2015/03/16 15:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/16 16:04:59 [error] [php] Undefined variable: cat_i (D:\proyek\fhuiguide\protected\controllers\AdminController.php:125)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savepost
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (125)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 16:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "post".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('post')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/post
+---
+2015/03/16 16:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:12:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:12:07 [error] [php] Undefined offset: 0 (D:\proyek\fhuiguide\protected\controllers\ArtikelController.php:13)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): ArtikelController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): ArtikelController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): ArtikelController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/artikel/post/1
+in D:\proyek\fhuiguide\protected\controllers\ArtikelController.php (13)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 16:12:20 [error] [php] Undefined offset: 0 (D:\proyek\fhuiguide\protected\controllers\ArtikelController.php:13)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): ArtikelController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): ArtikelController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): ArtikelController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/artikel/post/0
+in D:\proyek\fhuiguide\protected\controllers\ArtikelController.php (13)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 16:13:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lala".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('lala')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('lala')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/lala')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/lala
+---
+2015/03/16 16:13:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:14:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:16:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:17:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:17:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
+2015/03/16 16:18:13 [error] [php] Undefined offset: 0 (D:\proyek\fhuiguide\protected\controllers\ArtikelController.php:13)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): ArtikelController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): ArtikelController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): ArtikelController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/artikel/post/0
+in D:\proyek\fhuiguide\protected\controllers\ArtikelController.php (13)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 16:18:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('post')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/post')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/artikel/post/lala
+---
+2015/03/16 16:26:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addmatkul')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addmatkul')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin/addmatkul
+HTTP_REFERER=http://localhost/admin/tanyalist
+---
+2015/03/16 16:26:08 [error] [php] include(Peminatan.php): failed to open stream: No such file or directory (D:\proyek\fhuiguide\yy\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\proyek\fhuiguide\protected\controllers\AdminController.php(359): spl_autoload_call()
+#1 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionMatkul()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/matkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (359)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 16:31:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addmatkul')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addmatkul')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin/addmatkul
+HTTP_REFERER=http://localhost/admin/tanyalist
+---
+2015/03/16 16:37:08 [error] [php] include(Peminatan.php): failed to open stream: No such file or directory (D:\proyek\fhuiguide\yy\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\proyek\fhuiguide\protected\controllers\AdminController.php(359): spl_autoload_call()
+#1 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionMatkul()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/matkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (359)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:21:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fhuiguide.jenismatkul' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `jenismatkul`.
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (342)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:21:23 [error] [exception.CDbException] exception 'CDbException' with message 'The table "jenismatkul" for active record class "JenisMatkul" cannot be found in the database.' in D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(JenisMatkul))
+#1 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 D:\proyek\fhuiguide\protected\controllers\AdminController.php(342): CActiveRecord->findAll('kategori = 1')
+#5 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionMatkul()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('matkul')
+#10 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/matkul')
+#11 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/admin/matkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:21:47 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.semester" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('semester')
+#1 D:\proyek\fhuiguide\protected\views\admin\matkul_list.php(28): CActiveRecord->__get('semester')
+#2 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/matkul_l...', Array, true)
+#6 D:\proyek\fhuiguide\protected\controllers\AdminController.php(345): CController->render('/admin/matkul_l...', Array)
+#7 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionMatkul()
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('matkul')
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/matkul')
+#13 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/matkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:24:46 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.semester" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('semester')
+#1 D:\proyek\fhuiguide\protected\views\admin\matkul_list.php(28): CActiveRecord->__get('semester')
+#2 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/matkul_l...', Array, true)
+#6 D:\proyek\fhuiguide\protected\controllers\AdminController.php(345): CController->render('/admin/matkul_l...', Array)
+#7 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionMatkul()
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('matkul')
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/matkul')
+#13 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/matkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:25:41 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.semester" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('semester')
+#1 D:\proyek\fhuiguide\protected\views\admin\matkul_list.php(28): CActiveRecord->__get('semester')
+#2 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/matkul_l...', Array, true)
+#6 D:\proyek\fhuiguide\protected\controllers\AdminController.php(345): CController->render('/admin/matkul_l...', Array)
+#7 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionMatkul()
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('matkul')
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/matkul')
+#13 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#14 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/matkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:27:15 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:40 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:28:42 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:29:33 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:29:37 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "/admin/jenismatkul_add".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenismat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenismat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:29:44 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:32:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:32:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:32:41 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=1
+---
+2015/03/16 17:32:51 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "admin/jenis_matkul_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('admin/jenis_mat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(312): CController->render('admin/jenis_mat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('jenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/jenismatk...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/jenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:32:57 [error] [exception.CException] exception 'CException' with message 'AdminController cannot find the requested view "/admin/jenismatkul_add".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenismat...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenismat...', Array)
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:35:08 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.url" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('url')
+#1 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('url')
+#2 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(JenisMatkul), 'url')
+#3 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(JenisMatkul), 'url', Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(JenisMatkul), 'url', Array)
+#5 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->textField(Object(JenisMatkul), 'url')
+#6 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#7 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenis_ma...', Array, true)
+#10 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenis_ma...', Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#16 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#17 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:35:08 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.url" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('url')
+#1 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('url')
+#2 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(JenisMatkul), 'url')
+#3 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(JenisMatkul), 'url', Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(JenisMatkul), 'url', Array)
+#5 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->textField(Object(JenisMatkul), 'url')
+#6 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#7 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenis_ma...', Array, true)
+#10 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenis_ma...', Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#16 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#17 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:35:08 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.url" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('url')
+#1 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('url')
+#2 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(JenisMatkul), 'url')
+#3 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(JenisMatkul), 'url', Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(JenisMatkul), 'url', Array)
+#5 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->textField(Object(JenisMatkul), 'url')
+#6 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#7 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenis_ma...', Array, true)
+#10 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenis_ma...', Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#16 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#17 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:35:09 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.url" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('url')
+#1 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('url')
+#2 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(JenisMatkul), 'url')
+#3 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(JenisMatkul), 'url', Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(JenisMatkul), 'url', Array)
+#5 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->textField(Object(JenisMatkul), 'url')
+#6 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#7 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenis_ma...', Array, true)
+#10 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenis_ma...', Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#16 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#17 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:35:09 [error] [exception.CException] exception 'CException' with message 'Property "JenisMatkul.url" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('url')
+#1 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('url')
+#2 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(JenisMatkul), 'url')
+#3 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(JenisMatkul), 'url', Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(JenisMatkul), 'url', Array)
+#5 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->textField(Object(JenisMatkul), 'url')
+#6 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#7 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/admin/jenis_ma...', Array, true)
+#10 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): CController->render('/admin/jenis_ma...', Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addjenismatkul')
+#16 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/addjenism...')
+#17 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/addjenismatkul
+HTTP_REFERER=http://localhost/admin/posts?cat_id=0
+---
+2015/03/16 17:44:53 [error] [php] Undefined variable: matkul_wajib_id (D:\proyek\fhuiguide\protected\views\admin\matkul_add.php:8)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\AdminController.php(363): AdminController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddMatkul()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addmatkul
+in D:\proyek\fhuiguide\protected\views\admin\matkul_add.php (8)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (363)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:44:54 [error] [php] Undefined variable: matkul_wajib_id (D:\proyek\fhuiguide\protected\views\admin\matkul_add.php:8)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\AdminController.php(363): AdminController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddMatkul()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addmatkul
+in D:\proyek\fhuiguide\protected\views\admin\matkul_add.php (8)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (363)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:44:55 [error] [php] Undefined variable: matkul_wajib_id (D:\proyek\fhuiguide\protected\views\admin\matkul_add.php:8)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\AdminController.php(363): AdminController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddMatkul()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addmatkul
+in D:\proyek\fhuiguide\protected\views\admin\matkul_add.php (8)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (363)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:45:36 [error] [php] Undefined variable: nama (D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php:5)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): AdminController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addjenismatkul
+in D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php (5)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (330)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:51:20 [error] [php] strpos() expects parameter 1 to be string, array given (D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php:2676)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1980): resolveNameID()
+#1 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(914): activeDropDownList()
+#2 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->dropDownList()
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require()
+#4 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#7 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): AdminController->render()
+#8 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#11 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addjenismatkul
+in D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php (9)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (330)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:51:21 [error] [php] strpos() expects parameter 1 to be string, array given (D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php:2676)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1980): resolveNameID()
+#1 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(914): activeDropDownList()
+#2 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->dropDownList()
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require()
+#4 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#7 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): AdminController->render()
+#8 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#11 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addjenismatkul
+in D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php (9)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (330)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:51:21 [error] [php] strpos() expects parameter 1 to be string, array given (D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php:2676)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1980): resolveNameID()
+#1 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(914): activeDropDownList()
+#2 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->dropDownList()
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require()
+#4 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#7 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): AdminController->render()
+#8 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#11 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addjenismatkul
+in D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php (9)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (330)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:51:22 [error] [php] strpos() expects parameter 1 to be string, array given (D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php:2676)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1980): resolveNameID()
+#1 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(914): activeDropDownList()
+#2 D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php(9): CActiveForm->dropDownList()
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require()
+#4 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): AdminController->renderInternal()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): AdminController->renderFile()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): AdminController->renderPartial()
+#7 D:\proyek\fhuiguide\protected\controllers\AdminController.php(330): AdminController->render()
+#8 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): AdminController->actionAddJenisMatkul()
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#11 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#12 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#13 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#15 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/addjenismatkul
+in D:\proyek\fhuiguide\protected\views\admin\jenis_matkul_add.php (9)
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (330)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:52:33 [error] [php] Undefined index: jenismatkul (D:\proyek\fhuiguide\protected\controllers\AdminController.php:335)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (335)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:53:35 [error] [php] Undefined index: jenismatkul (D:\proyek\fhuiguide\protected\controllers\AdminController.php:336)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (336)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:54:18 [error] [php] Undefined index: jenismatkul (D:\proyek\fhuiguide\protected\controllers\AdminController.php:336)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (336)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:54:59 [error] [php] Undefined index: rancangan_kuliah (D:\proyek\fhuiguide\protected\controllers\AdminController.php:337)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (337)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:55:00 [error] [php] Undefined index: rancangan_kuliah (D:\proyek\fhuiguide\protected\controllers\AdminController.php:337)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (337)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:55:44 [error] [php] Undefined index: rancangan_kuliah (D:\proyek\fhuiguide\protected\controllers\AdminController.php:337)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (337)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:55:46 [error] [php] Undefined index: rancangan_kuliah (D:\proyek\fhuiguide\protected\controllers\AdminController.php:337)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (337)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/16 17:55:47 [error] [php] Undefined index: rancangan_kuliah (D:\proyek\fhuiguide\protected\controllers\AdminController.php:337)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): AdminController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): AdminController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): AdminController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/savejenismatkul
+in D:\proyek\fhuiguide\protected\controllers\AdminController.php (337)
+in D:\proyek\fhuiguide\index.php (13)
