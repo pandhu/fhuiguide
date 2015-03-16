@@ -123,31 +123,6 @@ class AdminController extends Controller{
 		$this->redirect('posts?cat_id='.$cat_i);
 	}
 
-	public function actionEditPeminatan($id){
-		$models = Peminatan::model()->findByPk($id);
-		$this -> render('/admin/artikel_edit', array('models' => $models, 'id'=>$id, 'url'=>$url ));
-	}
-
-	public function actionSaveEditPeminatan($id){
-		$peminatan = Peminatan::model()->findByPk($id);
-		$peminatan->attributes = $_POST['Peminatan'];
-		$peminatan->update();
-		$this->redirect('../editpeminatan/'.$id);
-	}
-
-	public function actionAddPeminatan(){
-		$models = Peminatan::model();	
-		$this -> render('/admin/peminatan_add', array('models' => $models,));
-	}
-
-	public function actionSavePeminatan(){
-
-		$peminatan = new Peminatan();
-		$peminatan->attributes = $_POST['Peminatan'];
-		$peminatan->save(false);
-		$this->redirect('peminatan/');
-	}
-
 	public function actionTanyaList(){
 		$pertanyaan = Pertanyaan::model()->waktuTanya()->findAll('status = 0');
 		$this->render('/admin/tanya_list', array('pertanyaan'=>$pertanyaan));
@@ -456,7 +431,7 @@ class AdminController extends Controller{
 		$this->redirect('/admin/konten/');
 	}
 
-	/**-------BAHAN KULIAH--------*/
+	/**-------BAHAN KULIAH--------
 	public function actionBahanKuliah(){
 		$this -> layout = 'main';
 		$peminatan = Peminatan::model() -> findAll();
@@ -465,7 +440,7 @@ class AdminController extends Controller{
 			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>0));
 	}
 
-	/**-------BANK SOAL--------*/
+	/**-------BANK SOAL--------
 	public function actionBankSoal(){
 		$this -> layout = 'main';
 		$peminatan = Peminatan::model() -> findAll();
@@ -473,7 +448,7 @@ class AdminController extends Controller{
 		$this -> render('/admin/konten_list/',
 			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>1));
 	}
-
+	*/
 	/**-------DIKTAT--------*/
 	public function actionDiktat(){
 		$this -> layout = 'main';
@@ -483,5 +458,4 @@ class AdminController extends Controller{
 			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>2));
 	}
 }
-?>
 ?>
