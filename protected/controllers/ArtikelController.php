@@ -2,10 +2,16 @@
 
 class ArtikelController extends Controller
 {
-	public function actionIndex($id_kategori)
+	public function actionIndex()
 	{
-		$model=new Artikel($id_kategori);
-		$this->render('artikel', array('model'=>$model));
+		$id = $_GET['cat_id'];
+		$artikel = Artikel::model() -> with('kategori') ->bydate()-> findAll('kategori_id = :cat_id', array(':cat_id'=>$_GET['cat_id']));
+		$this->render('/site/pages/artikel_list', array('artikel'=>$artikel));
+	}
+
+	public function actionPost($url){
+		$artikel = Artikel::model()-> findAll('url = :url', array(':url'=>$_GET['url']));
+		$this->render('/site/pages/artikel_single', array('artikel'=>$artikel));
 	}
 }
 

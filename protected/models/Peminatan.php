@@ -11,8 +11,8 @@ class Peminatan extends CActiveRecord{
 
 	public function rules(){
 		return array(
-			array('id, nama','required'),
-			array('nama', 'safe', 'on'=>'search'),
+			array('peminatan_id, nama, url','required'),
+			array('nama, url', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -21,16 +21,18 @@ class Peminatan extends CActiveRecord{
 			'matkul'=>array(self::HAS_MANY,'MataKuliah','id'),
 		);
 	}
-	
+
 	public function attributeLabels(){
 		return array(
-			'nama'=>'Nama Peminatan',
-			'rancangan_kuliah'=>'URL Rancangan Kuliah',
+			'id'=>'ID',
+			'nama'=>'nama',
+			'rancangan_kuliah'=>'url',
 		);
 	}
 
 	public function search(){
 		$criteria=new CDbCriteria;
+		$criteria->compare('id',$this->id);
 		$criteria->compare('nama',$this->nama,true);
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

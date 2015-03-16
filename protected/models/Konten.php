@@ -1,6 +1,9 @@
 <?php
+use yii\web\UploadedFile;
+
 class Konten extends CActiveRecord{
-	
+	public $file;
+
 	public static function model($className=__CLASS__){
 		return parent::model($className);
 	}
@@ -11,16 +14,24 @@ class Konten extends CActiveRecord{
 
 	public function rules(){
 		return array(
-			array('judul, url','required'),
-			array('kategori, judul, url', 'safe', 'on'=>'search'),
+			array('id,matkul_id,kategori','required'),
+			array('kategori, nama, judul', 'safe', 'on'=>'search'),
+		);
+	}
+
+	public function relations(){
+		return array(
+			'matkul'=>array(self::BELONGS_TO,'MataKuliah','matkul_id'),
 		);
 	}
 
 	public function attributeLabels(){
 		return array(
-			'judul'=>'judul',
+			'id'=>'ID',
+			'nama'=>'Nama',
 			'matkul_id'=>'matkul_id',
 			'url' => 'url',
+			'filetype' => 'filetype',
 			'kategori' => 'kategori',
 		);
 	}
@@ -30,7 +41,7 @@ class Konten extends CActiveRecord{
 		$criteria->compare('id',$this->id);
 		$criteria->compare('matkul_id',$this->matkul_id);
 		$criteria->compare('kategori',$this->kategori);
-		$criteria->compare('judul',$this->nama, true);
+		$criteria->compare('nama',$this->nama, true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

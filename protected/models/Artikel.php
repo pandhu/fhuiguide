@@ -46,5 +46,12 @@ class Artikel extends CActiveRecord{
 			'criteria'=>$criteria,
 		));
 	}
+
+	public function scopes() {
+	    return array(
+	        'byid' => array('order' => 'id DESC'),
+	        'bydate' => array('order' => 'time_stamp DESC'),
+	    );
+	}
 }
 ?>

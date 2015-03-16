@@ -11,8 +11,8 @@ class MataKuliah extends CActiveRecord{
 
 	public function rules(){
 		return array(
-			array('nama','required'),
-			array('peminatan_id, matkul_wajib_id, nama', 'safe', 'on'=>'search'),
+			array('id,peminatan_id','required'),
+			array('peminatan_id, nama', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -24,14 +24,15 @@ class MataKuliah extends CActiveRecord{
 
 	public function attributeLabels(){
 		return array(
+			'id'=>'ID',
 			'nama'=>'Nama',
-			'peminatan_id'=>'Peminatan',
-			'matkul_wajib_id'=>'Matakuliah Wajib',
+			'peminatan_id'=>'peminatan_id',
 		);
 	}
 
 	public function search(){
-        $criteria->compare('matkul_wajib_id',$this->matkul_wajib_id);
+		$criteria=new CDbCriteria;
+		$criteria->compare('id',$this->id);
 		$criteria->compare('peminatan_id',$this->peminatan_id);
 		$criteria->compare('nama',$this->nama, true);
 
