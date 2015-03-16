@@ -1,6 +1,9 @@
 <?php
+use yii\web\UploadedFile;
+
 class Konten extends CActiveRecord{
-	
+	public $file;
+
 	public static function model($className=__CLASS__){
 		return parent::model($className);
 	}
@@ -16,12 +19,19 @@ class Konten extends CActiveRecord{
 		);
 	}
 
+	public function relations(){
+		return array(
+			'matkul'=>array(self::BELONGS_TO,'MataKuliah','matkul_id'),
+		);
+	}
+
 	public function attributeLabels(){
 		return array(
 			'id'=>'ID',
 			'nama'=>'Nama',
 			'matkul_id'=>'matkul_id',
 			'url' => 'url',
+			'filetype' => 'filetype',
 			'kategori' => 'kategori',
 		);
 	}

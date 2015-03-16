@@ -121,11 +121,34 @@
                         <li><a href="<?php echo Yii::app()->baseUrl?>/admin/tanyalist"><i class="fa fa-wrench fa-fw"></i> Tanya Dosen</a>
                         </li>
 
-                        <li><a href="#"><i class="fa fa-wrench fa-fw"></i> Rancangan Kuliah</a>
+                         <li>
+                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Bahan Kuliah<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addbahankuliah">Add New</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/bahankuliah">View All</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/bahankuliahupload">Tambahan</a>
+                                </li>
+
+                            </ul>
+                            <!-- /.nav-second-level -->
                         </li>
-                        <li><a href="#"><i class="fa fa-wrench fa-fw"></i> Bahan Kuliah</a>
-                        </li>
-                        <li><a href=""><i class="fa fa-wrench fa-fw"></i> Bank Soal</a>
+                        <li>
+                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Bank Soal<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addbanksoal">Add New</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/banksoal">View All</a>
+                                </li>
+                                
+                            </ul>
+                            <!-- /.nav-second-level -->
                         </li>
                     </ul>
                 </div>
