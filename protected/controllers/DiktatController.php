@@ -1,5 +1,5 @@
 <?php 
-class BahanKuliahController extends Controller{
+class DiktatController extends Controller{
 	public $layout = 'main';
 
 	public function actionIndex(){

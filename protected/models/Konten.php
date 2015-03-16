@@ -47,5 +47,11 @@ class Konten extends CActiveRecord{
 			'criteria'=>$criteria,
 		));
 	}
+
+	public function scopes() {
+	    return array(
+	        'bymatkul' => array('order' => 'matkul_id ASC'),
+	    );
+	}
 }
 ?>

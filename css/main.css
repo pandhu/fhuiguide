@@ -1,12 +1,23 @@
+@font-face {
+    font-family: Quicksand;
+    src: url(../asset/fonts/QUICKSAND-REGULAR.OTF);
+}
+@font-face {
+    font-family: Code;
+    src: url(../asset/fonts/CODE-BOLD.OTF);
+}
+
 body
 {
 	margin: 0;
 	padding: 0;
 	color: #555;
-	font: normal 10pt Arial,Helvetica,sans-serif;
+	font: normal 10pt Quicksand,Arial,Helvetica,sans-serif;
 	background: #EFEFEF;
 }
-
+h1 {
+	font-family: Code;
+}
 #page
 {
 	margin-top: 5px;
@@ -317,4 +328,10 @@ div.search-form
 #page-wrapper{
 	padding-top: 10px;	
 	padding-bottom: 30px;
+}
+.artikel-judul{
+	font-family: Code;
+}
+.artikel-konten{
+	font-size: 16px;
 }

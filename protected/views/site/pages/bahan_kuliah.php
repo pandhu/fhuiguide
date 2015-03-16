@@ -6,29 +6,33 @@
     unset(Yii::app()->session['success']);
     endif;?>
 <h1>Bahan Kuliah</h1>
-<table class="table">
-<thead>
-	<tr>
-		<th>Nama File</th>		
-		<th>Mata Kuliah</th>		
-		<th>Download</th>		
-	</tr>
-</thead>
-<tbody>
+<?php foreach ($konten as $data): ?>
 
-<?php
-foreach ($konten as $item): ?>
-	<tr>
-		<td><?php echo $item->judul?></td>
-		<td><?php echo $item->matkul['nama']?></td>
-		<td><a class="btn btn-danger btn-delete" data-title="<?php echo $item->judul?>" data-link="<?php echo Yii::app()->baseUrl;?>/admin/deletebahankuliah/<?php echo $item->id?>">Delete</a></td>
-		<td><a class="btn btn-default" href="<?php echo Yii::app()->baseUrl?>/uploads/materi/<?php echo $item->url.'.'.$item->filetype?>">Download</a></td>
-	</tr>
+<div class="col-md-4">
+<h3><?php echo $data[0]->matkul->nama?></h3>
+	<table class="table">
+	<thead>
+		<tr>
+			<th>Nama File</th>		
+		</tr>
+	</thead>
+	<tbody>
+
 	<?php
-endforeach;
+	foreach ($data as $item): ?>
+		<tr>
+			<td><?php echo $item->judul?></td>
+			<td><a class="btn btn-default" href="<?php echo Yii::app()->baseUrl?>/uploads/materi/<?php echo $item->url.'.'.$item->filetype?>">Download</a></td>
+		</tr>
+		<?php
+	endforeach;
+	?>
+	</tbody>
+	</table>
+	</div>
+<?php 
+	endforeach
 ?>
-</tbody>
-</table>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

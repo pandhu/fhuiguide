@@ -7,6 +7,8 @@ class AdminController extends Controller{
 		if(Yii::app()->user->id==null){
 			$this->redirect(array('/login'));	
 		}
+		$this -> layout = 'admin';
+
 	}
 
 	public function actionIndex(){
@@ -355,7 +357,6 @@ class AdminController extends Controller{
 
 /**-------------------------------MATKUL----------------------------------**/	
 	public function actionMatkul(){
-		$this -> layout = 'main';
 		$peminatan = Peminatan::model() -> findAll();
 		$matkul_wajib = MataKuliahWajib::model() -> findAll();
 		$this -> render('/admin/matkul_list',
@@ -385,7 +386,7 @@ class AdminController extends Controller{
 		$matkul->nama = $_POST['MataKuliah']['nama'];
 		$matkul->peminatan_id = $id;
 		$matkul->save(false);
-		$this->redirect('/admin/Matkul/');
+		$this->redirect('../matkul/');
 	}
 	
 	public function actionAddMatkul($id){
@@ -399,7 +400,7 @@ class AdminController extends Controller{
 		$matkul->nama = $_POST['MataKuliah']['nama'];
 		$matkul->matkul_wajib_id = $id;
 		$matkul->save(false);
-		$this->redirect('/admin/Matkul/');
+		$this->redirect('../matkul/');
 	}
 
 /**------------KONTEN-------------------*/
@@ -451,10 +452,9 @@ class AdminController extends Controller{
 	*/
 	/**-------DIKTAT--------*/
 	public function actionDiktat(){
-		$this -> layout = 'main';
 		$peminatan = Peminatan::model() -> findAll();
 		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/admin/konten_list/',
+		$this -> render('/admin/konten_list',
 			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>2));
 	}
 }

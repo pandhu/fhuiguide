@@ -11,6 +11,7 @@ class ArtikelController extends Controller
 
 	public function actionPost($url){
 		$artikel = Artikel::model()-> findAll('url = :url', array(':url'=>$_GET['url']));
+		$artikel = $artikel[0];
 		$this->render('/site/pages/artikel_single', array('artikel'=>$artikel));
 	}
 }

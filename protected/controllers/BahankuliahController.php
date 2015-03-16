@@ -3,8 +3,25 @@ class BahankuliahController extends Controller{
 	public $layout = 'main';
 
 	public function actionIndex(){
-		$konten = Konten::model() ->with('matkul')->findAll("kategori = 'bahan_kuliah'");
-		$this -> render('/site/pages/bahan_kuliah', array('konten' => $konten));
+		$konten = Konten::model() ->with('matkul')->bymatkul()->findAll("kategori = 'bahan_kuliah'");
+		$data = array();
+		$cat_id = -1;
+		$matkul;
+		$count = 0;
+		foreach ($konten as $item) {
+			if ($item->matkul_id != $cat_id){
+				if ($count != 0){
+					$data[$cat_id] = $matkul;
+				}
+				$cat_id = $item->matkul_id;
+				$matkul = array();
+			}
+			array_push($matkul, $item);
+			$count++;
+		}
+		$data[$cat_id] = $matkul;
+
+		$this -> render('/site/pages/bahan_kuliah', array('konten' => $data));
 	}
 
 	public function actionAddBahanKuliah(){
@@ -17,6 +34,7 @@ class BahankuliahController extends Controller{
         if(isset($_POST['MateriTambahan']))
         {
             $konten->judul=$_POST['MateriTambahan']['judul'];
+            $konten->deskripsi=$_POST['MateriTambahan']['deskripsi'];
             //$model->image=CUploadedFile::getInstance($model,'image');
             $url = str_replace(' ','-', strtolower($konten->judul));
 			while($tmp = MateriTambahan::model()->find("url='{$url}'")){
@@ -68,3 +86,4 @@ class BahankuliahController extends Controller{
 	}
 }
 ?>
+
