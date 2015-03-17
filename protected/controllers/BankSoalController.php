@@ -1,13 +1,15 @@
 <?php 
-class BahanKuliahController extends Controller{
-	public $layout = 'main';
+class BankSoalController extends Controller{
+	public $layout = 'sidebar';
 
 	public function actionIndex(){
-		$this -> layout = 'main';
-		$peminatan = Peminatan::model() -> findAll();
-		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/site/pages/soal_list', 
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
+		$this -> render('/site/pages/konten_list');
+	}
+
+	public function actionDownload($id) {
+		$matkul = MataKuliah::model() -> findByPk($id);
+		$this -> render('/site/pages/konten_list', 
+			array('matkul' => $matkul, 'kategori' => 'bank_soal'));
 	}
 }
 ?>

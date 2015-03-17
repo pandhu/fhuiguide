@@ -16,6 +16,12 @@ class MataKuliah extends CActiveRecord{
 		);
 	}
 
+	public function relations(){
+		return array(
+			'konten'=>array(self::HAS_MANY,'Konten','matkul_id'),
+		);
+	}
+
 	public function attributeLabels(){
 		return array(
 			'id'=>'ID',

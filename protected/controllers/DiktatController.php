@@ -1,13 +1,15 @@
 <?php 
 class DiktatController extends Controller{
-	public $layout = 'main';
+	public $layout = 'sidebar';
 
 	public function actionIndex(){
-		$this -> layout = 'main';
-		$peminatan = Peminatan::model() -> findAll();
-		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/site/pages/diktat_list', 
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
+		$this -> render('/site/pages/konten_list');
+	}
+
+	public function actionDownload($id) {
+		$matkul = MataKuliah::model() -> findByPk($id);
+		$this -> render('/site/pages/konten_list', 
+			array('matkul' => $matkul, 'kategori' => 'diktat'));
 	}
 }
 ?>

@@ -11065,3 +11065,948 @@ Stack trace:
 REQUEST_URI=/admin/savejenismatkul
 in D:\proyek\fhuiguide\protected\controllers\AdminController.php (337)
 in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 18:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/banksoal/1
+---
+2015/03/17 18:40:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/banksoal/1
+---
+2015/03/17 18:40:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/banksoal/1
+---
+2015/03/17 18:40:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/banksoal/download
+---
+2015/03/17 18:40:48 [error] [exception.CException] exception 'CException' with message 'MataKuliah and its behaviors do not have a method or closure named "findById".' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(227): CComponent->__call('findById', Array)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(21): CActiveRecord->__call('findById', Array)
+#2 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(21): MataKuliah->findById('1')
+#3 [internal function]: BankSoalController->actionDownload('1')
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#10 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#11 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 18:41:45 [error] [exception.CException] exception 'CException' with message 'Property "MataKuliah.konten" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('konten')
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(22): CActiveRecord->__get('konten')
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:27:27 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:27:56 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:27:58 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:27:58 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:27:59 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:28:55 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:28:56 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:28:56 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:28:57 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:28:57 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:28:57 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BankSoalController.php:24)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BankSoalController->runAction()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BankSoalController->runActionWithFilters()
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BankSoalController->run()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/banksoal/download/1
+in D:\proyek\fhuiguide\protected\controllers\BankSoalController.php (24)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 19:29:33 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:33 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:34 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:34 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:34 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:34 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:35 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:35 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:31:35 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:39:51 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:39:51 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:39:52 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:41:26 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "/site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(24): CController->render('/site/pages/soa...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:03 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:04 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:04 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:05 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:05 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:05 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:05 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:05 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:06 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:06 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:06 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:06 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:07 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:07 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:07 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:07 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:08 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:08 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:08 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:08 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:43:08 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list/".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:44:03 [error] [exception.CException] exception 'CException' with message 'Property "MataKuliah.judul" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('judul')
+#1 D:\proyek\fhuiguide\protected\views\site\pages\soal_list.php(2): CActiveRecord->__get('judul')
+#2 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#6 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('/site/pages/soa...', Array)
+#7 [internal function]: BankSoalController->actionDownload('1')
+#8 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#14 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#15 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:44:04 [error] [exception.CException] exception 'CException' with message 'Property "MataKuliah.judul" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('judul')
+#1 D:\proyek\fhuiguide\protected\views\site\pages\soal_list.php(2): CActiveRecord->__get('judul')
+#2 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#3 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/soa...', Array, true)
+#6 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('/site/pages/soa...', Array)
+#7 [internal function]: BankSoalController->actionDownload('1')
+#8 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#9 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#10 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#14 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#15 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#16 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:47:05 [error] [exception.CException] exception 'CException' with message 'BankSoalController cannot find the requested view "site/pages/soal_list".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:878
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('site/pages/soal...', Array, true)
+#1 D:\proyek\fhuiguide\protected\controllers\BankSoalController.php(23): CController->render('site/pages/soal...', Array)
+#2 [internal function]: BankSoalController->actionDownload('1')
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(BankSoalController), Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BankSoalController), Object(ReflectionMethod), Array)
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('download')
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('banksoal/downlo...')
+#10 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#11 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/banksoal/download/1
+---
+2015/03/17 19:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bahansoal/download".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahansoal/downl...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bahansoal/download/1
+---
+2015/03/17 20:23:37 [error] [php] include(Peminatan.php): failed to open stream: No such file or directory (D:\proyek\fhuiguide\yy\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\proyek\fhuiguide\protected\controllers\RancanganKuliahController.php(12): spl_autoload_call()
+#1 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): RancanganKuliahController->actionIndex()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): RancanganKuliahController->runAction()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): RancanganKuliahController->runActionWithFilters()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): RancanganKuliahController->run()
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/rancangankuliah
+in D:\proyek\fhuiguide\protected\controllers\RancanganKuliahController.php (12)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 20:42:44 [error] [php] include(JenisKuliah.php): failed to open stream: No such file or directory (D:\proyek\fhuiguide\yy\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\proyek\fhuiguide\protected\controllers\RancanganKuliahController.php(6): spl_autoload_call()
+#1 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): RancanganKuliahController->actionIndex()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): RancanganKuliahController->runAction()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): RancanganKuliahController->runActionWithFilters()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): RancanganKuliahController->run()
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/rancangankuliah
+in D:\proyek\fhuiguide\protected\controllers\RancanganKuliahController.php (6)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 20:42:45 [error] [php] include(JenisKuliah.php): failed to open stream: No such file or directory (D:\proyek\fhuiguide\yy\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\proyek\fhuiguide\protected\controllers\RancanganKuliahController.php(6): spl_autoload_call()
+#1 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): RancanganKuliahController->actionIndex()
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): RancanganKuliahController->runAction()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): RancanganKuliahController->runActionWithFilters()
+#5 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): RancanganKuliahController->run()
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/rancangankuliah
+in D:\proyek\fhuiguide\protected\controllers\RancanganKuliahController.php (6)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/17 20:48:46 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "matkul" is not defined in active record class "MateriTambahan".' in D:\proyek\fhuiguide\yy\framework\db\ar\CActiveFinder.php:226
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveFinder.php(299): CActiveFinder->buildJoinTree(Object(CJoinElement), 'matkul')
+#1 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(912): CActiveFinder->__construct(Object(MateriTambahan), Array)
+#3 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(1360): CActiveRecord->getActiveFinder(Array)
+#4 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#5 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(96): CActiveRecord->findAll('kategori = 'bah...')
+#6 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionBahanKuliahUpload()
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('bahankuliahuplo...')
+#11 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/bah...')
+#12 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#13 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/bahankuliah/bahankuliahupload
+---
+2015/03/17 20:50:35 [error] [php] Trying to get property of non-object (D:\proyek\fhuiguide\protected\views\admin\bahan_kuliah.php:21)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(97): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionBahanKuliahUpload()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/bahankuliahupload
+in D:\proyek\fhuiguide\protected\views\admin\bahan_kuliah.php (21)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (97)
+in D:\proyek\fhuiguide\index.php (13)

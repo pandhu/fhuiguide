@@ -34,9 +34,9 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="">Home</a></li>
-            <li><a href="#">Rancangan Kuliah</a></li>
-            <li><a href="#">Bahan Kuliah</a></li>
-            <li><a href="#">Bank Soal</a></li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/rancangankuliah">Rancangan Kuliah</a></li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/bahankuliah">Bahan Kuliah</a></li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/banksoal">Bank Soal</a></li>
             <li><a href="<?php echo Yii::app()->baseUrl?>/tanyadosen">Tanya Dosen</a></li>
             <li><a href="<?php echo Yii::app()->baseUrl?>/artikel?cat_id=2">PKM Guide</a></li>
             <li><a href="<?php echo Yii::app()->baseUrl?>/artikel?cat_id=3">Beasiswa</a></li>
@@ -44,7 +44,7 @@
         </div>
       </div>
     </nav><!-- mainmenu -->
-    <div id="content" class="col-md-12">
+  <div id="content" class="col-md-12">
 	<?php echo $content; ?>
 	</div>
 	<div class="clearfix"></div>

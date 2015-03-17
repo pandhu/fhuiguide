@@ -2,7 +2,7 @@
 class BahankuliahController extends Controller{
 	public $layout = 'main';
 
-	public function actionIndex(){
+	/*public function actionIndex(){
 		$konten = Konten::model() ->with('matkul')->bymatkul()->findAll("kategori = 'bahan_kuliah'");
 		$data = array();
 		$cat_id = -1;
@@ -22,6 +22,18 @@ class BahankuliahController extends Controller{
 		$data[$cat_id] = $matkul;
 
 		$this -> render('/site/pages/bahan_kuliah', array('konten' => $data));
+	}*/
+
+	public function actionIndex(){
+		$this -> layout = 'sidebar';
+		$this -> render('/site/pages/konten_list');
+	}
+
+	public function actionDownload($id) {
+		$this -> layout = 'sidebar';
+		$matkul = MataKuliah::model() -> findByPk($id);
+		$this -> render('/site/pages/konten_list', 
+			array('matkul' => $matkul, 'kategori' => 'bahan_kuliah'));
 	}
 
 	public function actionAddBahanKuliah(){
