@@ -4,17 +4,20 @@
 <?php 
     unset(Yii::app()->session['success']);
     endif;?>
-<h1 class="col-md-12">Tanya Dosen</h1>
-<h3 class="lead col-md-12">Ajukan pertanyaan</h3>
+<div class="col-md-12">
+	<h1 class="block-title">TANYA DOSEN</h1>
+	<hr>
+	<h3 class="block-title">Ajukan pertanyaan</h3>
+</div>
 
 <?php $form = $this->beginWidget('CActiveForm', array('id'=>'login-form', 'action'=>Yii::app()->baseUrl.'/tanyadosen/savepertanyaan', 'htmlOptions'=>array('class'=>'col-md-8')));?>
     
 	<div class="form-group">
-	   <?php echo $form->textArea($models, 'pertanyaan', array('class'=>'form-control'));?>
+	   <?php echo $form->textArea($models, 'pertanyaan', array('class'=>'form-control', 'rows'=>'5'));?>
 	</div>
 
 	<div class="form-group">
-    <?php echo CHtml::submitButton('Tanya!', array('class'=>'btn btn-default'));?>
+    <?php echo CHtml::submitButton('Submit', array('class'=>'btn btn-primary'));?>
     </div>
     <?php $this->endWidget();?>
     <div class="clearfix"></div>

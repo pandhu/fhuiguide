@@ -1,39 +1,57 @@
 <?php 
 if($kategori == 'bahan_kuliah') {
   $kategori_uri = 'bahankuliah';
+  $judul = 'BAHAN KULIAH';
 }
 elseif($kategori == 'bank_soal') {
-  $kategori_uri = 'bank_soal';
+  $kategori_uri = 'banksoal';
+  $judul = 'BANK SOAL';
 }
 else {
   $kategori_uri = $kategori;
+  $judul = 'DIKTAT';
 }
 ?>
+<div class="col-md-12">
+  <h1><?php echo $judul; ?></h1>
+  <hr>
+</div>
+<div class="col-md-12">
 <div class="col-md-4">
-  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <h3 class="block-title">Matakuliah Wajib</h3>
+  <div class="panel-group" id="accordionWajib" role="tablist" aria-multiselectable="true">
+<?php
+foreach ($wajib_list as $wajib) :
+?>
     <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingWajib">
+      <div class="panel-heading" role="tab" id="heading<?php echo $wajib->id;?>">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapseWajib" aria-expanded="false" aria-controls="collapseWajib">
-            Mata Kuliah Wajib
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $wajib->id;?>" aria-expanded="false" aria-controls="collapseTwo">
+            <?php echo $wajib->nama; ?>
           </a>
         </h4>
       </div>
-      <div id="collapseWajib" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingWajib">
+      <div id="collapse<?php echo $wajib->id;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading<?php echo $wajib->id;?>">
         <div class="panel-body">
 <?php
-$i=0;
-while($i<7) {
+  foreach ($wajib->matkul as $matkul_peminatan) :
 ?>
-          <a href="<?php echo Yii::app()->baseUrl.'/'.$kategori_uri.'/matkulwajib/'.$i++;?>">
-            Semester <?php echo $i;?>
+          <a href="<?php echo Yii::app()->baseUrl.'/'.$kategori_uri.'/download/'.$matkul_peminatan->id; ?>">
+            <?php echo $matkul_peminatan->nama; ?>
           </a><br>
 <?php
-}
+  endforeach;
 ?>
         </div>
       </div>
     </div>
+<?php
+endforeach;
+?>
+  </div>
+  
+  <h3 class="block-title">Matakuliah Peminatan</h3>
+  <div class="panel-group" id="accordionPeminatan" role="tablist" aria-multiselectable="true">
 <?php
 foreach ($peminatan_list as $peminatan) :
 ?>
@@ -96,4 +114,5 @@ endforeach;
     endif;
   }
 ?>
+</div>
 </div>

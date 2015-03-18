@@ -33,13 +33,25 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="">Home</a></li>
+            <li class="active"><a href="<?php echo Yii::app()->baseUrl?>">Home</a></li>
             <li><a href="<?php echo Yii::app()->baseUrl?>/rancangankuliah">Rancangan Kuliah</a></li>
-            <li><a href="<?php echo Yii::app()->baseUrl?>/bahankuliah">Bahan Kuliah</a></li>
-            <li><a href="<?php echo Yii::app()->baseUrl?>/banksoal">Bank Soal</a></li>
-            <li><a href="<?php echo Yii::app()->baseUrl?>/tanyadosen">Tanya Dosen</a></li>
-            <li><a href="<?php echo Yii::app()->baseUrl?>/artikel?cat_id=2">PKM Guide</a></li>
-            <li><a href="<?php echo Yii::app()->baseUrl?>/artikel?cat_id=3">Beasiswa</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"> Bahan Kuliah <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="<?php echo Yii::app()->baseUrl?>/bahankuliah">Bahan Kuliah </a></li>
+                  <li><a href="<?php echo Yii::app()->baseUrl?>/uploadbahankuliah">Upload Materi </a></li>
+              </ul>
+            </li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/diktat"> Diktat </a></li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/banksoal"> Bank Soal </a></li>
+            <li><a href="<?php echo Yii::app()->baseUrl?>/tanyadosen"> Tanya Dosen </a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true"> Artikel <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="<?php echo Yii::app()->baseUrl?>/artikel/kategori/0"> PKM Guide </a></li>
+                  <li><a href="<?php echo Yii::app()->baseUrl?>/artikel/kategori/1"> Beasiswa </a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>

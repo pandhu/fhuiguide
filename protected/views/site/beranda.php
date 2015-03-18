@@ -2,22 +2,14 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-8">
+          <h1>SELAMAT DATANG</h1>
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet, melius voluptatum at sed. Utamur antiopam ius an. Eripuit maiestatis ne per, nam quis omnis mnesarchum no. Et ludus debitis tractatos nec. Appareat ponderum elaboraret at mel, elitr facete ut qui, his te congue postea fabellas. </p>
+          <p>Eu labore putant commodo qui, per no alterum accusam. Te per discere saperet repudiandae, nulla vituperata cum in, has ne iriure postulant. Vis esse legere labitur ut. Cu eos explicari intellegebat, duo ex cibo evertitur intellegam. Cu legere apeirian maluisset ius, fugit interesset duo ad. An quot facilisi sed, mel ad justo lobortis.</p>
         </div>
       </div>
+
 
       <hr>
 

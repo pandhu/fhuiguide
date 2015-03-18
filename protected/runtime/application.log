@@ -12181,3 +12181,385 @@ REQUEST_URI=/bahankuliah/
 in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (53)
 in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (30)
 in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 10:29:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/18 10:30:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/2
+---
+2015/03/18 10:31:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/2
+HTTP_REFERER=http://localhost/artikel/2
+---
+2015/03/18 10:36:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/2
+HTTP_REFERER=http://localhost/artikel/2
+---
+2015/03/18 10:36:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/2
+HTTP_REFERER=http://localhost/artikel/2
+---
+2015/03/18 10:45:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/diktat
+---
+2015/03/18 10:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "bank_soal".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bank_soal')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/bank_soal
+---
+2015/03/18 10:50:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/diktat
+---
+2015/03/18 11:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "kaegori".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('kaegori')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('kaegori')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/kaegori')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/kaegori/2
+---
+2015/03/18 11:28:36 [error] [php] Undefined offset: 0 (D:\proyek\fhuiguide\protected\views\site\pages\artikel_list.php:1)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): ArtikelController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): ArtikelController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\ArtikelController.php(18): ArtikelController->render()
+#3 unknown(0): ArtikelController->actionKategori()
+#4 D:\proyek\fhuiguide\yy\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): ArtikelController->runAction()
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): ArtikelController->runActionWithFilters()
+#9 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): ArtikelController->run()
+#10 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#12 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/artikel/kategori/2
+in D:\proyek\fhuiguide\protected\views\site\pages\artikel_list.php (1)
+in D:\proyek\fhuiguide\protected\controllers\ArtikelController.php (18)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 16:42:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/18 16:45:34 [error] [exception.CException] exception 'CException' with message 'Property "MateriTambahan.judul" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(145): CComponent->__get('judul')
+#1 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2728): CActiveRecord->__get('judul')
+#2 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(MateriTambahan), 'judul')
+#3 D:\proyek\fhuiguide\yy\framework\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(MateriTambahan), 'judul', Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(MateriTambahan), 'judul', Array)
+#5 D:\proyek\fhuiguide\protected\views\site\pages\bahan_kuliah_add.php(6): CActiveForm->textField(Object(MateriTambahan), 'judul', Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(126): require('D:\\proyek\\fhuig...')
+#7 D:\proyek\fhuiguide\yy\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\proyek\\fhuig...', Array, true)
+#8 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): CBaseController->renderFile('D:\\proyek\\fhuig...', Array, true)
+#9 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): CController->renderPartial('/site/pages/bah...', Array, true)
+#10 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(51): CController->render('/site/pages/bah...', Array)
+#11 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionAddBahanKuliah()
+#12 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('addbahankuliah')
+#16 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/add...')
+#17 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#18 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/bahankuliah/addbahankuliah
+---
+2015/03/18 16:48:46 [error] [exception.CException] exception 'CException' with message 'Property "MateriTambahan.filetype" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(161): CComponent->__set('filetype', 'doc')
+#1 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(82): CActiveRecord->__set('filetype', 'doc')
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionSaveBahanKuliah()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('savebahankuliah')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/sav...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bahankuliah/savebahankuliah
+HTTP_REFERER=http://localhost/bahankuliah/addbahankuliah
+---
+2015/03/18 16:48:58 [error] [exception.CException] exception 'CException' with message 'Property "MateriTambahan.filetype" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(161): CComponent->__set('filetype', 'pdf')
+#1 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(82): CActiveRecord->__set('filetype', 'pdf')
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionSaveBahanKuliah()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('savebahankuliah')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/sav...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bahankuliah/savebahankuliah
+HTTP_REFERER=http://localhost/bahankuliah/addbahankuliah
+---
+2015/03/18 16:53:38 [error] [exception.CException] exception 'CException' with message 'Property "MateriTambahan.filetype" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(161): CComponent->__set('filetype', 'pdf')
+#1 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(82): CActiveRecord->__set('filetype', 'pdf')
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionSaveBahanKuliah()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('savebahankuliah')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/sav...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bahankuliah/savebahankuliah
+HTTP_REFERER=http://localhost/bahankuliah/addbahankuliah
+---
+2015/03/18 16:53:46 [error] [exception.CException] exception 'CException' with message 'Property "MateriTambahan.filetype" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(161): CComponent->__set('filetype', 'pdf')
+#1 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(82): CActiveRecord->__set('filetype', 'pdf')
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionSaveBahanKuliah()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('savebahankuliah')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/sav...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bahankuliah/savebahankuliah
+HTTP_REFERER=http://localhost/bahankuliah/addbahankuliah
+---
+2015/03/18 16:53:50 [error] [exception.CException] exception 'CException' with message 'Property "MateriTambahan.filetype" is not defined.' in D:\proyek\fhuiguide\yy\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\db\ar\CActiveRecord.php(161): CComponent->__set('filetype', 'pdf')
+#1 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(82): CActiveRecord->__set('filetype', 'pdf')
+#2 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionSaveBahanKuliah()
+#3 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('savebahankuliah')
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/sav...')
+#8 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/bahankuliah/savebahankuliah
+HTTP_REFERER=http://localhost/bahankuliah/addbahankuliah
+---
+2015/03/18 17:18:45 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:2)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahanKuliahController.php(10): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (2)
+in D:\proyek\fhuiguide\protected\controllers\BahanKuliahController.php (10)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 17:32:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/bahankuliah
+---
+2015/03/18 17:32:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/upoadmateri
+---
+2015/03/18 17:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/upoadmateri
+---
+2015/03/18 17:32:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/upoadmateri
+---
+2015/03/18 17:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadmateri".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadmateri')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadmateri
+HTTP_REFERER=http://localhost/upoadmateri
+---
+2015/03/18 17:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/rancangankuliah
+---
+2015/03/18 17:35:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:35:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:35:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:36:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:36:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 17:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upoadbahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('upoadbahankulia...')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/upoadbahankuliah
+HTTP_REFERER=http://localhost/upoadbahankuliah
+---
+2015/03/18 18:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "savebahankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('savebahankuliah')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('savebahankuliah')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/sav...')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bahankuliah/savebahankuliah
+HTTP_REFERER=http://localhost/uploadbahankuliah
+---
+2015/03/18 18:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('artikel/view')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/artikel/1
+---
