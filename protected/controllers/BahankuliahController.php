@@ -1,7 +1,7 @@
 <?php 
 class BahankuliahController extends Controller{
 	public $layout = 'main';
-
+	public $kategori = 'bahan_kuliah';
 	/*public function actionIndex(){
 		$konten = Konten::model() ->with('matkul')->bymatkul()->findAll("kategori = 'bahan_kuliah'");
 		$data = array();
@@ -25,15 +25,25 @@ class BahankuliahController extends Controller{
 	}*/
 
 	public function actionIndex(){
-		$this -> layout = 'sidebar';
-		$this -> render('/site/pages/konten_list');
+		//$this -> layout='sidebar';
+		$peminatan_list = JenisMatkul::model() -> findAll('kategori=1');
+		$this -> render('/site/pages/konten_list', array('peminatan_list'=>$peminatan_list, 'kategori' => 'bahan_kuliah'));
 	}
 
 	public function actionDownload($id) {
-		$this -> layout = 'sidebar';
+		//$this -> layout='sidebar';
+		$peminatan_list = JenisMatkul::model() -> findAll('kategori=1');
 		$matkul = MataKuliah::model() -> findByPk($id);
 		$this -> render('/site/pages/konten_list', 
-			array('matkul' => $matkul, 'kategori' => 'bahan_kuliah'));
+			array('peminatan_list'=>$peminatan_list,'matkul' => $matkul, 'kategori' => 'bahan_kuliah'));
+	}
+
+	public function actionMatkulWajib($id) {
+		//$this -> layout='sidebar';
+		$peminatan_list = JenisMatkul::model() -> findAll('kategori=1');
+		$semester = JenisMatkul::model() -> findByPk($id);
+		$this -> render('/site/pages/konten_list', 
+			array('peminatan_list'=>$peminatan_list,'semester' => $semester, 'kategori' => 'bahan_kuliah'));
 	}
 
 	public function actionAddBahanKuliah(){

@@ -1,4 +1,5 @@
 <div class="row"> 
+	<div class='col-md-1'></div>
 	<div class="col-md-4">
 	  	<div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingOne">
@@ -28,6 +29,7 @@
           </div>
         </div>
 	</div>
+	<div class='col-md-1'></div>
 	<div class="col-md-4">
 	  	<div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingOne">

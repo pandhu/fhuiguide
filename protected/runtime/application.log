@@ -12010,3 +12010,174 @@ REQUEST_URI=/bahankuliah/bahankuliahupload
 in D:\proyek\fhuiguide\protected\views\admin\bahan_kuliah.php (21)
 in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (97)
 in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 02:01:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/03/18 02:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rancangankuliah".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('rancangankuliah')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('rancangankuliah')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/rancangan...')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/rancangankuliah
+---
+2015/03/18 02:32:09 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:2)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(29): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (2)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (29)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 02:32:33 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:2)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(29): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (2)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (29)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 02:52:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in D:\proyek\fhuiguide\yy\framework\web\CController.php:483
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(270): CController->missingAction('view')
+#1 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('view')
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/vie...')
+#3 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/bahankuliah/0
+HTTP_REFERER=http://localhost/bahankuliah
+---
+2015/03/18 03:28:43 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in D:\proyek\fhuiguide\yy\framework\web\CController.php:336
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): CController->run('matkulwajib')
+#4 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('bahankuliah/mat...')
+#5 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 D:\proyek\fhuiguide\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/bahankuliah/matkulwajib/
+---
+2015/03/18 03:28:48 [error] [php] Undefined variable: peminatan_list (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:38)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(29): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (38)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (29)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 03:28:49 [error] [php] Undefined variable: peminatan_list (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:38)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(29): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (38)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (29)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 03:28:50 [error] [php] Undefined variable: peminatan_list (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:38)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(29): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (38)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (29)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 03:28:52 [error] [php] Undefined variable: peminatan_list (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:38)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(29): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (38)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (29)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 03:33:29 [error] [php] Undefined variable: kategori (D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php:30)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#2 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#3 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (30)
+in D:\proyek\fhuiguide\index.php (13)
+2015/03/18 03:39:40 [error] [php] Undefined variable: matkul (D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php:53)
+Stack trace:
+#0 D:\proyek\fhuiguide\yy\framework\web\CController.php(869): BahankuliahController->renderFile()
+#1 D:\proyek\fhuiguide\yy\framework\web\CController.php(782): BahankuliahController->renderPartial()
+#2 D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php(30): BahankuliahController->render()
+#3 D:\proyek\fhuiguide\yy\framework\web\actions\CInlineAction.php(49): BahankuliahController->actionIndex()
+#4 D:\proyek\fhuiguide\yy\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\proyek\fhuiguide\yy\framework\web\CController.php(286): BahankuliahController->runAction()
+#6 D:\proyek\fhuiguide\yy\framework\web\CController.php(265): BahankuliahController->runActionWithFilters()
+#7 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(282): BahankuliahController->run()
+#8 D:\proyek\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\proyek\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#10 D:\proyek\fhuiguide\index.php(13): CWebApplication->run()
+REQUEST_URI=/bahankuliah/
+in D:\proyek\fhuiguide\protected\views\site\pages\konten_list.php (53)
+in D:\proyek\fhuiguide\protected\controllers\BahankuliahController.php (30)
+in D:\proyek\fhuiguide\index.php (13)

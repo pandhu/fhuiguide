@@ -45,29 +45,7 @@
       </div>
     </nav><!-- mainmenu -->
   <div id="content" class="col-md-12">
-    <div class="col-md-4">
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-        <div class="panel panel-default">
-          <div class="panel-heading" role="tab" id="headingOne">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                Perdata
-              </a>
-            </h4>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-            <div class="panel-body">
-              <a href="#">Matkul 1</a><br>
-              <a href="#">Matkul 2</a><br>
-              <a href="#">Matkul 3</a><br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-8">
       <?php echo $content; ?>
-    </div>
   </div>
   <div class="clearfix"></div>
 

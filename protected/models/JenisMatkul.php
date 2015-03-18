@@ -18,7 +18,7 @@ class JenisMatkul extends CActiveRecord{
 
 	public function relations(){
 		return array(
-			'matkul'=>array(self::HAS_MANY, 'MataKuliah', 'id'),
+			'matkul'=>array(self::HAS_MANY, 'MataKuliah', 'jenis'),
 		);
 	}
 

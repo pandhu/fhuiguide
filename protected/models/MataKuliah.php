@@ -19,6 +19,7 @@ class MataKuliah extends CActiveRecord{
 	public function relations(){
 		return array(
 			'konten'=>array(self::HAS_MANY,'Konten','matkul_id'),
+			'jenis'=>array(self::BELONGS_TO,'JenisMatkul','id'),
 		);
 	}
 
