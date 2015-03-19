@@ -4,7 +4,7 @@ class BerandaController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->layout="home";
+		$this->layout="main";
 
 		// renders the view file 'protected/views/site/beranda.php'
 		// using the default layout 'protected/views/layouts/main.php'
