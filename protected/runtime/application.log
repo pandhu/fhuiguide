@@ -18909,3 +18909,1605 @@ Stack trace:
 REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
 HTTP_REFERER=http://localhost/fhuiguide/uploadbahankuliah
 ---
+2015/03/19 05:55:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 05:55:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/rancangankuliah
+---
+2015/03/19 05:55:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 05:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/rancangankuliah
+---
+2015/03/19 05:55:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 05:55:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/rancangankuliah
+---
+2015/03/19 05:55:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/bahankuliah
+---
+2015/03/19 05:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/uploadbahankuliah
+---
+2015/03/19 05:55:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/diktat
+---
+2015/03/19 05:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/banksoal
+---
+2015/03/19 05:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/tanyadosen
+---
+2015/03/19 05:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/artikel/kategori/0
+---
+2015/03/19 05:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/grayscale.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/grayscale.c...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/grayscale.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/bootstrap.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.easin...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/grayscale.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/grayscale.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/grayscale.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/grayscale.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/grayscale.c...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/grayscale.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.easin...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/bootstrap.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/grayscale.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/grayscale.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/grayscale.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/bootstrap.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/grayscale.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/grayscale.c...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/grayscale.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.easin...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/grayscale.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/grayscale.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/grayscale.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.easin...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/grayscale.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/grayscale.c...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/grayscale.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/css/bootstrap.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/bootstrap.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap.mi...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/bootstrap.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/jquery.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:01:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/grayscale.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('js/grayscale.js')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/js/grayscale.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:03:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:03:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:04:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:05:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:05:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:05:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:05:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:07:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:08:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/tanyadosen
+---
+2015/03/19 06:08:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/tanyadosen
+---
+2015/03/19 06:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/map-marker.png".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('img/map-marker....')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/img/map-marker.png
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:14:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:14:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "font-awesome/css/font-awesome.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('font-awesome/cs...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/font-awesome/css/font-awesome.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/jquery.easing.min.js".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/jquery.ea...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/jquery.easing.min.js
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/css/bootstrap-theme.min.css".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/css/boots...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/css/bootstrap-theme.min.css
+HTTP_REFERER=http://localhost/fhuiguide/
+---
+2015/03/19 06:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/downloads-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/downl...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/downloads-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
+2015/03/19 06:17:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "asset/img/intro-bg.jpg".' in C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\fhuiguide\yy\framework\web\CWebApplication.php(141): CWebApplication->runController('asset/img/intro...')
+#1 C:\xampp\htdocs\fhuiguide\yy\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\fhuiguide\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fhuiguide/asset/img/intro-bg.jpg
+HTTP_REFERER=http://localhost/fhuiguide/asset/css/grayscale.css
+---
