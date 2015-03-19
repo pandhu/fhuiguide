@@ -1,6 +1,7 @@
 <?php
+use yii\web\UploadedFile;
 class JenisMatkul extends CActiveRecord{
-	
+	public $file;
 	public static function model($className=__CLASS__){
 		return parent::model($className);
 	}

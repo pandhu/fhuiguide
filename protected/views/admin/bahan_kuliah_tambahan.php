@@ -5,19 +5,50 @@
     unset(Yii::app()->session['success']);
     endif;?>
 <h1>Bahan Kuliah Upload</h1>
-<?php
-foreach ($konten as $item): ?>
-	<div class="col-md-12">
-		<h3><?php echo $item->judul?></h3>
-		<div class="col-md-6"><?php echo $item->deskripsi?></div>
-		<div>
-			<a class="btn btn-danger btn-delete" data-title="<?php echo $item->judul?>" data-link="<?php echo Yii::app()->baseUrl;?>/admin/deletebahankuliahtambahan/<?php echo $item->id?>">Delete</a>
-			<a class="btn btn-default" href="<?php echo Yii::app()->baseUrl?>/uploads/materi/<?php echo $item->url.'.'.$item->filetype?>">Download</a>
+<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<b>Daftar Mata Kuliah</b>
+				</div>
+				<div class="panel-body">
+					<div class="dataTable_wrapper" style="height:450px; overflow-y:scroll">
+						<table class="table table-striped table-bordered table-hover" id="dataTables-rancangan">
+							<thead>
+								<tr>
+									<th>Nama File</th>
+									<th>Deskripsi</th>
+									<th>Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<?php 
+								foreach ($konten as $item):
+									?>
+								<tr>
+									<td><?php echo $item->judul?></td>
+									<td><?php echo $item->deskripsi?></td>
+									<td>
+										<button class="btn btn-warning btn-small btn-delete" data-title="<?php echo $item->judul?>" data-link="<?php echo Yii::app()->baseUrl?>/admin/deletebahankuliahtambahan/<?php echo $item->id?>">
+											<i class="fa fa-times-circle"></i> Hapus
+										</button>
+																		
+										<a href="<?php echo Yii::app()->baseUrl.'/uploads/materi/tambahan/'.$item->url.'.'.$item->filetype?>" class="btn btn-primary btn-small">
+											<i class="fa fa-refresh"></i> Download Rencana Kuliah
+										</a>
+										
+									</td>
+								</tr>
+								<?php
+								endforeach;
+								?>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<?php
-endforeach;
-?>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

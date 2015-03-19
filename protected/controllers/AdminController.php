@@ -145,10 +145,17 @@ class AdminController extends Controller{
 		$this->redirect('../tanyalist');
 	}
 
-	public function actionBahanKuliah(){
+	public function actionBahanKuliah($id){
 		$this -> layout = 'admin';
-		$konten = Konten::model() ->with('matkul')->findAll("kategori = 'bahan_kuliah'");
-		$this -> render('/admin/bahan_kuliah', array('konten' => $konten));
+		$models = Konten::model();
+		$konten = Konten::model()->with('matkul', 'jenisMatkul')->findAll(array('condition'=>"t.kategori = 'bahan_kuliah' and matkul_id =".$id));
+		$isEmpty = false;
+		$matkul = MataKuliah::model()->with('jenisMatkul')->findAll('t.id='.$id); 
+		$matkul = $matkul[0];
+		if(count($konten)==0){
+			$isEmpty = true;
+		}
+		$this -> render('/admin/bahan_kuliah', array('konten' => $konten, 'models' => $models, 'isEmpty' => $isEmpty, 'matkul' => $matkul));
 	}
 
 	public function actionAddBahanKuliah(){
@@ -163,13 +170,13 @@ class AdminController extends Controller{
 		$this -> render('/admin/bahan_kuliah_add', array('konten' => $konten, 'matkuls' => $matkuls));
 	}
 
-	public function actionSaveBahanKuliah(){
+	public function actionSaveBahanKuliah($id){
 		$konten=new Konten;
         if(isset($_POST['Konten']))
         {
             $konten->judul=$_POST['Konten']['judul'];
             $konten->kategori='bahan_kuliah';
-            $konten->matkul_id=$_POST['Konten']['matkul_id'];
+            $konten->matkul_id=$id;
             //$model->image=CUploadedFile::getInstance($model,'image');
             $url = str_replace(' ','-', strtolower($konten->judul));
 			while($tmp = Konten::model()->find("url='{$url}'")){
@@ -199,18 +206,19 @@ class AdminController extends Controller{
 	           	 $temp->saveAs(Yii::app()->basePath . '/../uploads/materi/' . $fileName);
             }
         }
-        $this->redirect('bahankuliah');
+   		Yii::app()->session['success'] = "Bahan Kuliah Berhasil Diupload";
+        $this->redirect('../bahankuliah/'.$id);
 	}
 
 	public function actionDeleteBahanKuliah($id){
 		$konten = Konten::model()->findByPk($id);
-		
+		$matkul_id = $konten->matkul_id;
 		$filename = $konten->url;
 		$filetype = $konten->filetype;
 		Konten::model()->deleteAll("id = ".$id);
 		Yii::app()->session['success'] = "Bahan Kuliah Berhasil Dihapus";
 		unlink(Yii::app()->basePath . '/../uploads/materi/'.$filename.'.'.$filetype);
-		$this -> redirect('../bahankuliah');
+		$this -> redirect('../bahankuliah/'.$matkul_id);
 
 	}
 
@@ -230,10 +238,17 @@ class AdminController extends Controller{
 		$this -> redirect('../bahankuliahupload');
 
 	}
-	public function actionBankSoal(){
+	public function actionBankSoal($id){
 		$this -> layout = 'admin';
-		$konten = Konten::model() ->with('matkul')->findAll("kategori = 'bank_soal'");
-		$this -> render('/admin/bank_soal', array('konten' => $konten));
+		$models = Konten::model();
+		$konten = Konten::model()->with('matkul', 'jenisMatkul')->findAll(array('condition'=>"t.kategori = 'bank_soal' and matkul_id =".$id));
+		$isEmpty = false;
+		$matkul = MataKuliah::model()->with('jenisMatkul')->findAll('t.id='.$id); 
+		$matkul = $matkul[0];
+		if(count($konten)==0){
+			$isEmpty = true;
+		}
+		$this -> render('/admin/bank_soal', array('konten' => $konten, 'models' => $models, 'isEmpty' => $isEmpty, 'matkul' => $matkul));
 	}
 
 	public function actionAddBankSoal(){
@@ -248,13 +263,13 @@ class AdminController extends Controller{
 		$this -> render('/admin/bank_soal_add', array('konten' => $konten, 'matkuls' => $matkuls));
 	}
 
-	public function actionSaveBankSoal(){
+	public function actionSaveBankSoal($id){
 		$konten=new Konten;
         if(isset($_POST['Konten']))
         {
             $konten->judul=$_POST['Konten']['judul'];
             $konten->kategori='bank_soal';
-            $konten->matkul_id=$_POST['Konten']['matkul_id'];
+            $konten->matkul_id=$id;
             //$model->image=CUploadedFile::getInstance($model,'image');
             $url = str_replace(' ','-', strtolower($konten->judul));
 			while($tmp = Konten::model()->find("url='{$url}'")){
@@ -284,18 +299,18 @@ class AdminController extends Controller{
 	           	 $temp->saveAs(Yii::app()->basePath . '/../uploads/banksoal/' . $fileName);
             }
         }
-        $this->redirect('banksoal');
+        $this->redirect('../banksoal/'.$id);
 	}
 
 	public function actionDeleteBankSoal($id){
 		$konten = Konten::model()->findByPk($id);
-		
+		$matkul_id = $konten->matkul_id;
 		$filename = $konten->url;
 		$filetype = $konten->filetype;
 		Konten::model()->deleteAll("id = ".$id);
 		Yii::app()->session['success'] = "Bank Soal Berhasil Dihapus";
 		unlink(Yii::app()->basePath . '/../uploads/banksoal/'.$filename.'.'.$filetype);
-		$this -> redirect('../banksoal');
+		$this -> redirect('../banksoal/'.$matkul_id);
 
 	}
 
@@ -307,9 +322,10 @@ class AdminController extends Controller{
 
 	/**--------JenisMatkul----------**/
 	public function actionJenisMatkul(){
-		$wajib = JenisMatkul::model()->findAll("kategori = 0");
-		$peminatan = JenisMatkul::model()->findAll("kategori = 1");
-		$this -> render('admin/jenis_matkul_list', array('wajib' => $wajib, 'peminatan' => $peminatan));
+		$jenisMatkul = JenisMatkul::model()->findAll();
+		$models = JenisMatkul::model();
+		
+		$this -> render('/admin/jenis_matkul_list', array('jenisMatkul' => $jenisMatkul, 'models' => $models));
 	}
 
 	public function actionEditJenisMatkul($id){
@@ -319,12 +335,28 @@ class AdminController extends Controller{
 
 	public function actionSaveEditJenisMatkul($id){
 		$peminatan = JenisMatkul::model()->findByPk($id);
-		var_dump($_POST);
-/*		$peminatan->nama = $_POST['JenisMatkul']['nama'];
-		$peminatan->rancangan_kuliah = $_POST['JenisMatkul']['rancangan_kuliah'];
-		$peminatan->update();
-		$this->redirect('../editjenis_matkul/'.$id);
-*/	}
+		$peminatan->nama = $_POST['JenisMatkul']['nama'];
+		$peminatan->kategori = 1;
+		if($_POST['JenisMatkul']['file'] != "")
+        {
+	        $url = str_replace(' ','-', strtolower($peminatan->nama));
+
+                 
+			$temp= CUploadedFile::getInstance($peminatan,'file');
+            $fileExt = explode('.', $temp->name);
+            $fileExt = $fileExt[count($fileExt)-1];
+            $fileName = $url.'.'.$fileExt;
+            $peminatan->rancangan_kuliah=$fileName;
+            
+            if($peminatan->update())
+            {
+	           	 $temp->saveAs(Yii::app()->basePath . '/../uploads/rencana_kuliah/' . $fileName);
+            }
+        } else $peminatan->update();
+		Yii::app()->session['success'] = "Peminatan Berhasil Diedit";
+
+		$this->redirect('../jenismatkul');
+	}
 
 	public function actionAddJenisMatkul(){
 		$models = JenisMatkul::model();	
@@ -334,29 +366,59 @@ class AdminController extends Controller{
 	public function actionSaveJenisMatkul(){
 		$peminatan = new JenisMatkul();
 		$peminatan->nama = $_POST['JenisMatkul']['nama'];
-		$peminatan->rancangan_kuliah = $_POST['JenisMatkul']['rancangan_kuliah'];
-		$peminatan->kategori = $_POST['JenisMatkul']['kategori'];
-		$peminatan->save(false);
+		$peminatan->rancangan_kuliah = Null;
+		$peminatan->kategori = 1;
+		if($_POST['JenisMatkul']['file'] != "")
+        {
+	        $url = str_replace(' ','-', strtolower($peminatan->nama));
+
+                 
+			$temp= CUploadedFile::getInstance($peminatan,'file');
+            $fileExt = explode('.', $temp->name);
+            $fileExt = $fileExt[count($fileExt)-1];
+            $fileName = $url.'.'.$fileExt;
+            $peminatan->rancangan_kuliah=$fileName;
+            
+            if($peminatan->save(false))
+            {
+	           	 $temp->saveAs(Yii::app()->basePath . '/../uploads/rencana_kuliah/' . $fileName);
+            }
+        } else $peminatan->save(false);
+		Yii::app()->session['success'] = "Peminatan Berhasil Disimpan";
+
+		$this->redirect('../jenismatkul');
 	}
 
 /**-------------------------------MATKUL----------------------------------**/	
 	public function actionMatkul(){
-		$peminatan = JenisMatkul::model() -> findAll('kategori = 1');
-		$matkul_wajib = JenisMatkul::model() -> findAll('kategori = 0');
-		$this -> render('/admin/matkul_list',
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib));
+		$models = MataKuliah::model();
+		$matkuls = MataKuliah::model() ->bypeminatan()->with('jenisMatkul')-> findAll();
+		$peminatan = JenisMatkul::model()->findAll();
+		$peminatans = array();
+		foreach ($peminatan as $data) {
+			$peminatans[$data->id] = $data->nama;
+		}
+		$this -> render('/admin/matkul_list',array('matkuls' => $matkuls, 'models' => $models, 'peminatans' => $peminatans));
 	}
 
 	public function actionEditMatkul($id){
+
+		$peminatan = JenisMatkul::model()->findAll();
+		$peminatans = array();
+		foreach ($peminatan as $data) {
+			$peminatans[$data->id] = $data->nama;
+		}
 		$models = MataKuliah::model()->findByPk($id);
-		$this -> render('/admin/matkul_edit', array('models' => $models, 'id' => $id));
+		$this -> render('/admin/matkul_edit', array('models' => $models, 'id' => $id, 'peminatans' => $peminatans));
 	}
 
 	public function actionSaveEditMatkul($id){
 		$matkul = MataKuliah::model()->findByPk($id);
 		$matkul->nama = $_POST['MataKuliah']['nama'];
+		$matkul->jenis = $_POST['MataKuliah']['jenis'];
 		$matkul->update();
-		$this->redirect('../editMatkul/'.$id);
+		Yii::app()->session['success'] = "Mata Kuliah Berhasil Diedit";
+		$this->redirect('../matkul/');
 	}
 
 	public function actionAddMatkul(){
@@ -368,10 +430,19 @@ class AdminController extends Controller{
 	public function actionSaveMatkul(){
 		$matkul = new MataKuliah();
 		$matkul->nama = $_POST['MataKuliah']['nama'];
-		$matkul->jenis = $_POST['JenisMatkul']['id'];
+		$matkul->jenis = $_POST['MataKuliah']['jenis'];
 		$matkul->save(false);
+		Yii::app()->session['success'] = "Mata Kuliah Berhasil Disimpan";
 		$this->redirect('../matkul/');
 	}
+
+	public function actionDeleteMataKuliah($id){
+		MataKuliah::model()->deleteAll("id = ".$id);
+		Yii::app()->session['success'] = "Bank Soal Berhasil Dihapus";
+		$this -> redirect('../matkul/');
+
+	}
+
 
 /**------------KONTEN-------------------*/
 	public function actionEditKonten($id, $kategori){
@@ -421,11 +492,68 @@ class AdminController extends Controller{
 	}
 	*/
 	/**-------DIKTAT--------*/
-	public function actionDiktat(){
-		$peminatan = Peminatan::model() -> findAll();
-		$matkul_wajib = MataKuliahWajib::model() -> findAll();
-		$this -> render('/admin/konten_list',
-			array('peminatan' => $peminatan, 'matkul_wajib'=>$matkul_wajib, 'kategori'=>2));
+	public function actionDiktat($id){
+		$this -> layout = 'admin';
+		$models = Konten::model();
+		$konten = Konten::model()->with('matkul', 'jenisMatkul')->findAll(array('condition'=>"t.kategori = 'diktat' and matkul_id =".$id));
+		$isEmpty = false;
+		$matkul = MataKuliah::model()->with('jenisMatkul')->findAll('t.id='.$id); 
+		$matkul = $matkul[0];
+		if(count($konten)==0){
+			$isEmpty = true;
+		}
+		$this -> render('/admin/diktat', array('konten' => $konten, 'models' => $models, 'isEmpty' => $isEmpty, 'matkul' => $matkul));
+	}
+
+	public function actionSaveDiktat($id){
+		$konten=new Konten;
+        if(isset($_POST['Konten']))
+        {
+            $konten->judul=$_POST['Konten']['judul'];
+            $konten->kategori='diktat';
+            $konten->matkul_id=$id;
+            //$model->image=CUploadedFile::getInstance($model,'image');
+            $url = str_replace(' ','-', strtolower($konten->judul));
+			while($tmp = Konten::model()->find("url='{$url}'")){
+				$url_old = explode("-", $tmp->url);
+				$count = $url_old[count($url_old)-1];
+
+				if(is_numeric($count)){
+					$url_new = array_slice($url_old, 0, count($url_old)-1);
+					$url_new = implode('-', $url_new);
+					$count++;
+					$url = $url_new.'-'.$count; 
+				} else {
+					$url = $url.'-'.'1';
+				}
+			}
+
+			//if($_POST['Konten']['file'] == null) $this->redirect('/admin/addbahankuliah');
+			$temp= CUploadedFile::getInstance($konten,'file');
+			$fileExt = explode('.', $temp->name);
+            $fileExt = $fileExt[count($fileExt)-1];
+            $fileName = $url.'.'.$fileExt;
+            $konten->url = $url;
+            $konten->filetype = $fileExt;
+            if($konten->save(false))
+            {
+            	var_dump($temp->type);
+	           	 $temp->saveAs(Yii::app()->basePath . '/../uploads/diktat/' . $fileName);
+            }
+        }
+        $this->redirect('../diktat/'.$id);
+	}
+
+	public function actionDeleteDiktat($id){
+		$konten = Konten::model()->findByPk($id);
+		$matkul_id = $konten->matkul_id;
+		$filename = $konten->url;
+		$filetype = $konten->filetype;
+		Konten::model()->deleteAll("id = ".$id);
+		Yii::app()->session['success'] = "Bank Soal Berhasil Dihapus";
+		unlink(Yii::app()->basePath . '/../uploads/diktat/'.$filename.'.'.$filetype);
+		$this -> redirect('../diktat/'.$matkul_id);
+
 	}
 }
 ?>

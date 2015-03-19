@@ -50,7 +50,7 @@
 					if($data->kategori == 1) :
 						if(!empty($data->rancangan_kuliah)) :
 				?>
-							<a href="<?php echo $data->rancangan_kuliah; ?>">
+							<a href="<?php echo Yii::app()->baseUrl.'/uploads/rencana_kuliah/'.$data->rancangan_kuliah; ?>">
 						  		<i><?php echo $data->nama; ?></i>
 						  	</a><br>
 				<?php

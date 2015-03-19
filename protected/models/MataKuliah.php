@@ -19,7 +19,7 @@ class MataKuliah extends CActiveRecord{
 	public function relations(){
 		return array(
 			'konten'=>array(self::HAS_MANY,'Konten','matkul_id'),
-			'jenis'=>array(self::BELONGS_TO,'JenisMatkul','id'),
+			'jenisMatkul'=>array(self::BELONGS_TO,'JenisMatkul','jenis'),
 		);
 	}
 
@@ -39,6 +39,12 @@ class MataKuliah extends CActiveRecord{
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+
+	public function scopes() {
+	    return array(
+	        'bypeminatan' => array('order' => 'jenis Asc'),
+	    );
 	}
 }
 ?>

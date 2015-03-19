@@ -122,74 +122,18 @@
                         </li>
 
                         <li>
-                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Jenis Mata kuliah<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addjenismatkul">Add New</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/jenismatkul">View All</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
+                            <a href="<?php echo Yii::app()->baseUrl?>/admin/jenismatkul"><i class="fa fa-bar-chart-o fa-fw"></i> Jenis Mata kuliah</a>
                         </li>
 
                         <li>
-                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Mata Kuliah<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addmatkul">Add New</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/matkul">View All</a>
-                                </li>
-                            </ul>
+                            <a href="<?php echo Yii::app()->baseUrl?>/admin/matkul"><i class="fa fa-bar-chart-o fa-fw"></i> Mata Kuliah</a>
                             <!-- /.nav-second-level -->
                         </li>
-                        
                         <li>
-                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Bahan Kuliah<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addbahankuliah">Add New</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/bahankuliah">View All</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/bahankuliahupload">Tambahan</a>
-                                </li>
-
-                            </ul>
+                            <a href="<?php echo Yii::app()->baseUrl?>/admin/bahankuliahupload"><i class="fa fa-bar-chart-o fa-fw"></i> Uploaded Materi</a>
                             <!-- /.nav-second-level -->
                         </li>
-
-                        <li>
-                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Diktat<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addbahankuliah">Add New</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/bahankuliah">View All</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-
-                        <li>
-                            <a href=""><i class="fa fa-bar-chart-o fa-fw"></i> Bank Soal<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/addbanksoal">Add New</a>
-                                </li>
-                                <li>
-                                    <a href="<?php echo Yii::app()->baseUrl?>/admin/banksoal">View All</a>
-                                </li>
-                                
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
+                                               
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

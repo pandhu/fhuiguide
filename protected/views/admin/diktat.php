@@ -9,11 +9,11 @@
 	<!-- HEADER -->
 	<div class="row">
 		<div class="col-lg-12">
-			<h1 class="page-header">Bank Soal</h1>
+			<h1 class="page-header">Diktat</h1>
 		</div>
 		<!-- /.col-lg-12 -->
 	</div>
-
+	
 	<!-- dataTable -->
 	<div class="row">
 		<div class="col-lg-12">
@@ -66,10 +66,10 @@
 									<td><?php echo $item->judul?></td>
 									<td><i class="fa fa-file-pdf-o"></i> <?php echo $item->url.'.'.$item->filetype?></td>
 									<td>
-										<button class="btn btn-warning btn-small btn-delete" data-title="<?php echo $item->judul?>" data-link="<?php echo Yii::app()->baseUrl?>/admin/deletebanksoal/<?php echo $item->id?>">
+										<button class="btn btn-warning btn-small btn-delete" data-title="<?php echo $item->judul?>" data-link="<?php echo Yii::app()->baseUrl?>/admin/deletediktat/<?php echo $item->id?>">
 											<i class="fa fa-times-circle"></i> Hapus
 										</button>
-										<a href="<?php echo Yii::app()->baseUrl.'/uploads/materi/'.$item->url.'.'.$item->filetype?>" target="_blank" class="btn btn-primary btn-small">
+										<a href="<?php echo Yii::app()->baseUrl.'/uploads/diktat/'.$item->url.'.'.$item->filetype?>" target="_blank" class="btn btn-primary btn-small">
 											<i class="fa fa-refresh"></i> Download
 										</a>
 									</td>
@@ -98,7 +98,7 @@
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-12">
-							<?php $form = $this->beginWidget('CActiveForm', array('id'=>'login-form', 'action'=>Yii::app()->baseUrl.'/admin/savebanksoal/'.$matkul->id, 'htmlOptions'=>array('class'=>'col-md-6', 'enctype'=>'multipart/form-data')));?>
+							<?php $form = $this->beginWidget('CActiveForm', array('id'=>'login-form', 'action'=>Yii::app()->baseUrl.'/admin/savediktat/'.$matkul->id, 'htmlOptions'=>array('class'=>'col-md-6', 'enctype'=>'multipart/form-data')));?>
 						    <div class="form-group">
 						        <?php echo $form->textField($models, 'judul', array('class'=>'form-control', 'placeholder'=>'Judul', 'required'=>'true'));?>  
 						        <?php echo $form->error($models, 'judul');?>   

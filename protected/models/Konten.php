@@ -22,6 +22,7 @@ class Konten extends CActiveRecord{
 	public function relations(){
 		return array(
 			'matkul'=>array(self::BELONGS_TO,'MataKuliah','matkul_id'),
+			'jenisMatkul'=>array(self::BELONGS_TO,'JenisMatkul',array('jenis'=>'id'),'through'=>'matkul'),
 		);
 	}
 
